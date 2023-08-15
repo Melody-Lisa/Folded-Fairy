@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Playfair+Display:wght@300, 400, 500, 600, 700, 800&display=swap');
+
+
+.heroimage {
+    background-image: url(assets/images/pink-rose.jpg);
+}
+
+#foot {
+    width: 100vw;
+    height: 50px;
+    background-color: #04604e;
+    color: #eb5cad;
+    position: fixed;
+    bottom: 0px;
+}
