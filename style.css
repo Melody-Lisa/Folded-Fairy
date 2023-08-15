@@ -1,8 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Playfair+Display:wght@300, 400, 500, 600, 700, 800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Playfair+Display:wght@500&display=swap');
 
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair',sans-serif;
+    background-color: antiquewhite;
+}
+
+#navbar {
+    width: 100vw;
+    height: 75px;
+    background-color: #04604e;
+}
+
+.navbar-brand {
+    font-family: 'Luxurious Script', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #eb5cad;
+}
+
+.nav{
+    float: right;
+}
+
+.navbar-brand nav{
+    line-height: 75px;
+}
 
 .heroimage {
-    background-image: url(assets/images/pink-rose.jpg);
+    
+
 }
 
 #foot {
@@ -12,4 +42,5 @@
     color: #eb5cad;
     position: fixed;
     bottom: 0px;
+    overflow: none;
 }
