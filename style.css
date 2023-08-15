@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 body {
-    font-family: 'Playfair', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #04604e;
 }
 
+
 #navbar {
     background-color: antiquewhite;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
 }
 
 #logo {
@@ -49,7 +53,7 @@ body {
 
 
 #heroimage {
-    height: 300px;
+    height: 400px;
     width: 100%;
     background: url("/assets/images/hero-book.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -65,7 +69,7 @@ body {
 }
 
 #hero-outer {
-    height: 300px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 }
