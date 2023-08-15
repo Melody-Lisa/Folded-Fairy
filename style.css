@@ -48,14 +48,52 @@ body {
 }
 
 
-.heroimage {
-    background: url(assets/images/pink-rose.jpg) no-repeat bottom right fixed;
+#heroimage {
+    height: 300px;
+    width: 100%;
+    background: url("/assets/images/hero-book.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0;
+
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
+
+#hero-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 #foot {
     width: 100vw;
