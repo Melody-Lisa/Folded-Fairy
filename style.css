@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Site Wide */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -103,11 +104,8 @@ body {
     100% { opacity: 1; }
   }
 
-#cover-layer {
 
-}
-
-  #cover-text {
+  .cover-text {
     font-size: 120%;
     font-family: "Luxurious Script", cursive;
     color: antiquewhite;
@@ -127,7 +125,7 @@ body {
 
 }
 
-#cover-text h2, h3 {
+.cover-text h2, h3 {
     float: right;
 
 }
@@ -140,6 +138,18 @@ hr {
 #cover-text hr {
     right: 10px;
 }
+
+#foot {
+    width: 100vw;
+    height: 50px;
+    border-top: #04604e 2px solid;
+    background-color: antiquewhite;
+    color: #eb5cad;
+    position: fixed;
+    bottom: 0px;
+}
+
+/* Homepage */
 
 #reviews-head, #about-head {
     font-family: "Montserrat";
@@ -157,28 +167,18 @@ hr {
     margin-bottom: 10px;
 }
 
-#foot {
-    width: 100vw;
-    height: 50px;
-    border-top: #04604e 2px solid;
-    background-color: antiquewhite;
-    color: #eb5cad;
-    position: fixed;
-    bottom: 0px;
+
+/* Gallery */
+
+
+.c-item {
+    height: 95vh;
+
 }
 
-@media screen and (max-width: 1393px ){
-    #navbar{
-    margin: 0 auto;
-    }
 
-    #cover-text {
-        right: 10px;
-    }
-
-    hr {
-        right: 10px;
-    }
-
-
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7)
 }
