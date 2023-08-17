@@ -141,7 +141,7 @@ hr {
     right: 10px;
 }
 
-#reviews-head {
+#reviews-head, #about-head {
     font-family: "Montserrat";
     text-align: center;
     text-transform: uppercase;
