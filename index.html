@@ -22,20 +22,23 @@
     <header id="navbar" class="navbar">
 
         <a href="index.html">
-            <h1 id="logo" class="">The Folded Fairy</h1>
+            <h1 id="logo" class="navbar-brand">The Folded Fairy</h1>
         </a>
 
         <nav>
             <div class="menu-fix">
-                <ul id="menu">
+                <ul id="menu" d-none d-md-block>
                     <li>
-                        <a class="active" href="index.html">Home</a>
+                        <a class="active" href="index.html"><i class="fa-solid fa-house"></i> 
+                            <span class="d-none d-sm-inline">Home</span></a>
                     </li>
                     <li>
-                        <a href="gallery.html">Gallery</a>
+                        <a href="gallery.html"><i class="fa-regular fa-images"></i> 
+                            <span class="d-none d-sm-inline">Gallery</span></a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html"><i class="fa-solid fa-phone"></i> 
+                            <span class="d-none d-sm-inline">Contact</span></a></a>
                     </li>
                 </ul>
             </div>
@@ -47,13 +50,16 @@
     <div class="container-fluid px-0">
         <section id="hero-outer">
             <div id="heroimage"> </div>
-            <div id="cover-layer"></div>
-            <div class="cover-text">
-                <h2>The Folded Fairy</h2>
-                <br>
-                <hr>
-                <br>
-                <h3>Handmade decorative books</h3>
+            <div class="cover-div">
+                <div class="cover-text d-none d-md-block">
+                    <h2>The Folded Fairy</h2>
+                    
+                    <div class="cover-break">
+                        <hr>
+                    </div>
+                    
+                    <h3>Handmade decorative books</h3>
+                </div>
             </div>
         </section>
     </div>

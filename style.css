@@ -19,7 +19,7 @@ body {
 #logo {
     font-family: 'Luxurious Script', cursive;
     font-weight: 400;
-    font-size: 280%;
+    font-size: 200%;
     letter-spacing: 6px;
     color: #eb5cad;
     float: left;
@@ -31,7 +31,7 @@ body {
 }
 
 #menu li{
-    font-size: 110%;
+    font-size: 100%;
     list-style-type: none;
     letter-spacing: 4px;
     margin-right: 20px;
@@ -53,6 +53,7 @@ body {
     text-decoration: underline solid;
     color: #eb5cad;
 }
+
 
 
 #hero-outer {
@@ -111,7 +112,7 @@ body {
   }
 
 
-  .cover-text {
+  .cover-div {
     font-size: 120%;
     font-family: "Luxurious Script", cursive;
     color: antiquewhite;
@@ -121,17 +122,17 @@ body {
     width: 50%;
     height: 200px;
 
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 0;
 
     bottom: 30px;
     right: 50px;
+
 
     position: absolute;
 
 }
 
-.cover-text h2, h3 {
+.cover-text {
     float: right;
 
 }
@@ -141,9 +142,7 @@ hr {
 
 }
 
-#cover-text hr {
-    right: 10px;
-}
+
 
 #foot {
     width: 100vw;
