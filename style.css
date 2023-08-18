@@ -176,12 +176,16 @@ hr {
 
 /* Gallery */
 
+#hero-carousel {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
 
 .c-item {
     height: 95vh;
 
 }
-
 
 .c-img {
     height: 100%;
@@ -214,3 +218,4 @@ hr {
     color: black;
     background-color: #eb5cad;
 }
+

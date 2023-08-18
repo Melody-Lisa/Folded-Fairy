@@ -27,15 +27,18 @@
 
         <nav>
             <div class="menu-fix">
-                <ul id="menu">
+                <ul id="menu" d-none d-md-block>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html"><i class="fa-solid fa-house"></i> 
+                            <span class="d-none d-sm-inline">Home</span></a>
                     </li>
                     <li>
-                        <a class="active" href="gallery.html">Gallery</a>
+                        <a class="active" href="gallery.html"><i class="fa-regular fa-images"></i> 
+                            <span class="d-none d-sm-inline">Gallery</span></a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html"><i class="fa-solid fa-phone"></i> 
+                            <span class="d-none d-sm-inline">Contact</span></a></a>
                     </li>
                 </ul>
             </div>
@@ -43,22 +46,8 @@
     </header>
     <!-- header with nav-->
 
-    <!-- hero image and cover text --
-  <div class="container-fluid px-0">
-    <section id="hero-outer">
-        <div id="heroimage"> </div>
-        <div id="cover-layer"></div>
-        <div class="cover-text">
-            <h2>The Folded Fairy</h2>
-            <br>
-            <hr>
-            <br>
-            <h3>Product Gallery</h3>
-        </div>
-    </section>
-</div>
-<!-- /hero image -->
-
+<article>
+<!-- carousel with images -->
     <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="true">
 
         <div class="carousel-inner">
@@ -164,6 +153,9 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    <!-- /carousel --> 
+
+    </article>
 
     <!-- footer -->
     <footer id="foot">Copyright and socials</footer>
