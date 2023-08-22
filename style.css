@@ -25,7 +25,10 @@ main {
     position: fixed;
     border-bottom: #04604e 1px solid;
     z-index: 10;
+    margin: 0 auto;
 }
+
+
 
 #logo {
     font-family: 'Luxurious Script', cursive;
@@ -34,7 +37,8 @@ main {
     letter-spacing: 6px;
     color: #eb5cad;
     float: left;
-    margin-left: 30px;
+    margin-left: 0px;
+    display: flex;
 }
 
 .menu-fix {
@@ -48,6 +52,8 @@ main {
     margin-right: 20px;
     float: left;
 }
+
+
 
 #menu a {
     text-decoration: none;
@@ -65,12 +71,19 @@ main {
     color: #eb5cad;
 }
 
+#logo,
+#menu {
+    line-height: 50px;
+}
+
 
 
 #hero-outer {
-    height: 95vh;
+    height: 90vh;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 
 }
 
@@ -86,9 +99,7 @@ main {
 
     margin: 0;
 
-
     filter: brightness(0.7);
-
 
     animation-name: fadeIn;
     animation-duration: 4s;
@@ -126,6 +137,12 @@ hr {
 
 }
 
+h2 {
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
 
 
 #foot {
@@ -141,13 +158,7 @@ hr {
 
 /* Homepage */
 
-#reviews-head,
-#about-head {
-    font-family: "Montserrat";
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 5px;
-}
+
 
 #reviews {
     margin: 0;
@@ -204,6 +215,18 @@ hr {
     background-color: #eb5cad;
 }
 
+/* Contact */
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
 
 /* Keyframe */
 @keyframes fadeIn {
@@ -254,4 +277,15 @@ hr {
     100% {
         opacity: 1;
     }
+}
+
+@media screen and (max-width: 992px) {
+
+    header a,
+    nav {
+        display: inline-flex;
+        justify-content: center;
+
+    }
+
 }

@@ -19,28 +19,30 @@
 <body>
 
     <!-- Header with nav-->
-    <header id="navbar" class="navbar">
+    <header id="navbar" class="navbar row py-0">
 
-        <a href="index.html">
-            <h1 id="logo" class="navbar-brand">The Folded Fairy</h1>
+        <a class="col-12 col-lg-6" href="index.html">
+            <h1 id="logo" class="d-inline">The Folded Fairy</h1>
         </a>
 
-        <nav>
+        <nav class="col-12 col-lg-6">
             <div class="menu-fix">
-                <ul id="menu" d-none d-md-block>
+                <div>
+                <ul id="menu">
                     <li>
                         <a class="active" href="index.html"><i class="fa-solid fa-house"></i>
-                            <span class="d-none d-sm-inline">Home</span></a>
+                            <span class="d-none d-lg-inline">Home</span></a>
                     </li>
                     <li>
                         <a href="gallery.html"><i class="fa-regular fa-images"></i>
-                            <span class="d-none d-sm-inline">Gallery</span></a>
+                            <span class="d-none d-lg-inline">Gallery</span></a>
                     </li>
                     <li>
                         <a href="contact.html"><i class="fa-solid fa-phone"></i>
-                            <span class="d-none d-sm-inline">Contact</span></a></a>
+                            <span class="d-none d-lg-inline">Contact</span></a>
                     </li>
                 </ul>
+            </div>
             </div>
         </nav>
     </header>
@@ -51,8 +53,8 @@
         <section id="hero-outer">
             <div id="heroimage"> </div>
             <div class="cover-div">
-                <div class="cover-text d-none d-md-block">
-                    <h2>The Folded Fairy</h2>
+                <div class="cover-text d-md-block">
+                    <h3>The Folded Fairy</h3>
                     <div class="cover-break d-block">
                         <hr>
                     </div>
@@ -63,7 +65,7 @@
     </div>
     <!-- /hero image -->
 
-    <article class="container">
+    <article class="container" aria-label="article">
 
         <section>
             <div class="row">
