@@ -7,6 +7,7 @@ body {
     background-color: #04604e;
     display: flex;
     flex-direction: column;
+    margin-bottom: 45px;
 }
 
 header,
@@ -79,7 +80,7 @@ main {
 
 
 #hero-outer {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     overflow: hidden;
 
@@ -115,11 +116,11 @@ main {
     letter-spacing: 4px;
 
     width: 50%;
-    height: 200px;
+    height: 100px;
 
     padding: 0;
 
-    bottom: 30px;
+    bottom: 75px;
     right: 50px;
 
 
@@ -165,8 +166,14 @@ h2 {
 }
 
 .blockquote {
+    height: 200px;
+
     background-color: antiquewhite;
     margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    clear: both;
+    justify-content: center;
 }
 
 
@@ -193,6 +200,7 @@ h2 {
     color: antiquewhite;
     font-family: "Luxurious Script", cursive;
     letter-spacing: 4px;
+    text-transform: capitalize;
 }
 
 .gallery-text {
@@ -217,14 +225,37 @@ h2 {
 
 /* Contact */
 
+.contact-form {
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}  
+
 .text-input {
     background: transparent;
-    color: #fafafa;
-    width: 100%;
+    width: 50%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    border: 1px solid #04604e;
+    border-radius: 15px;
+
+}
+
+.text-area {
+    background: transparent;
+    width: 50%;
+    height: 75px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #04604e;
+    border-radius: 15px;
+}
+
+.contact-btn {
+    justify-content: end;
 }
 
 
