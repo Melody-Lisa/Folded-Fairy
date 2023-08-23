@@ -134,7 +134,7 @@ main {
 }
 
 hr {
-    color: white;
+    color: antiquewhite;
 
 }
 
@@ -159,21 +159,45 @@ h2 {
 
 /* Homepage */
 
-
+#about-head,
+#reviews-head {
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-decoration: solid underline 2px;
+}
 
 #reviews {
     margin: 0;
 }
 
+.about-text {
+    font-family: inherit;
+    text-align: start;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.about-text p {
+    text-indent: 10px;
+}
+
+.about-text .welcome {
+    font-family: 'Luxurious Script', cursive;
+    letter-spacing: 4px;
+    font-size: 150%;
+}
+
 .blockquote {
-    height: 200px;
+    height: fit-content;
 
     background-color: antiquewhite;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 30px 20px 20px 20px;
     border-radius: 15px;
     clear: both;
-    justify-content: center;
+    text-align: center;
 }
 
 
