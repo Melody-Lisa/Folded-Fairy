@@ -211,7 +211,7 @@ h2 {
 
 .c-item {
     margin-top: 20px;
-    height: 90vh;
+    height: 95vh;
 }
 
 .c-img {
@@ -245,6 +245,15 @@ h2 {
 .btn-dark:hover {
     color: black;
     background-color: #eb5cad;
+}
+
+.gallery-text,
+.gallery-btn {
+    margin-bottom: 50px;
+}
+
+.carousel-control-prev-icon {
+    color: #04604e;
 }
 
 /* Contact */
