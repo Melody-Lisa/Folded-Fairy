@@ -210,8 +210,8 @@ h2 {
 }
 
 .c-item {
-    height: 95vh;
-
+    margin-top: 20px;
+    height: 90vh;
 }
 
 .c-img {
