@@ -12,7 +12,7 @@ body {
 
 header,
 footer {
-    flex: none;
+    display: flex;
 }
 
 main {
@@ -74,7 +74,7 @@ main {
 
 #logo,
 #menu {
-    line-height: 50px;
+    line-height: 30px;
 }
 
 
@@ -148,13 +148,24 @@ h2 {
 
 #foot {
     width: 100vw;
-    height: 50px;
+    height: 40px;
     border-top: #04604e 1px solid;
     background-color: antiquewhite;
     color: #eb5cad;
     position: fixed;
     bottom: 0px;
     z-index: 10;
+}
+ .foot-social {
+    text-decoration: none;
+    color: #eb5cad;
+    font-weight: 800;
+    float: right;
+}
+
+.foot-social a:hover {
+
+    color: #eb5cad;
 }
 
 /* Homepage */
@@ -218,6 +229,7 @@ h2 {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7)
+    
 }
 
 .gallery-head {
