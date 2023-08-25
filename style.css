@@ -299,10 +299,6 @@ h2 {
     border-radius: 15px;
 }
 
-.contact-btn {
-    justify-content: end;
-}
-
 
 /* Keyframe */
 @keyframes fadeIn {
