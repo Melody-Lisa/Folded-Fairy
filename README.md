@@ -1,6 +1,6 @@
 # Folded-Fairy
 
-![Folded Fairy Full Responsive Wireframes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/2654cbd6-d8fc-40f9-a307-74ba9a2864c5)
+![Website view on various screen sizes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/2654cbd6-d8fc-40f9-a307-74ba9a2864c5)
 
 
 [Access the live site here.](https://melody-lisa.github.io/Folded-Fairy/)
