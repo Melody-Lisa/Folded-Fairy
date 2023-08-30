@@ -53,4 +53,4 @@ As the site is starting out quite simply, the navigation route will be linear an
 
 #### Wireframes
 
-![Wireframes showing basic page layout with key responsive elements](/workspaces/Folded-Fairy/assets/images/Folded Fairy Full Responsive Wireframes.png "Wireframes showing basic page layout with key responsive elements")
+![Folded Fairy Full Responsive Wireframes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d666c1f3-131f-4608-ae9d-492aadf03959)
