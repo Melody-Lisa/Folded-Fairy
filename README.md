@@ -37,6 +37,7 @@ This is the documentation for The Folded Fairy. The site has been built using HT
     
     b. As a frequent visitor, I want to be able to check for new features as the website expands.
 
+-----
 
 ### Scope
 
@@ -50,9 +51,13 @@ As well as the three main pages, links to the business' social media pages would
 
 These three pages give the client a good starting idea about the potential for having their own website with room to expand the site to include more features in the future.
 
+-----
+
 ### Structure
 
 As the site is starting out quite simply, the navigation route will be linear and will encourage users to read about the business, view some of the past products and then contact the business for more information. This will be the order that the pages appear in the navigation bar along with interactive calls to action and links within the content of the pages to encourage users to click over to the next area of the site.
+
+-----
 
 ### Skeleton
 
@@ -62,6 +67,9 @@ As the site is starting out quite simply, the navigation route will be linear an
 <img src="assets/images/full-wireframes.png">
 </details>
 
+-----
+
+## User Interface (UI) Design
 
 ### Surface
 
@@ -69,9 +77,9 @@ As the site is starting out quite simply, the navigation route will be linear an
 
 Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
-* The "Luxurious Script" font has been used for the main title on each page along with subheadings and certain parts of the about section. "Cursive" is the fallback font in case the browser doesn't import the font correctly. I chose this style of font as I believe it compliments the style of the product.
+* The [Luxurious Script](https://fonts.google.com/specimen/Luxurious+Script?query=luxuriou) font has been used for the main title on each page along with subheadings and certain parts of the about section. "Cursive" is the fallback font in case the browser doesn't import the font correctly. I chose this style of font as I believe it compliments the style of the product.
 
-* The "Montserrat" font has been used for the main text across the site with "sans-serif" as fallback if the browser doesn't import the font correctly. This is a common font used in websites, is easy to read and provides good contrast with the title font.
+* The [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont) font has been used for the main text across the site with "sans-serif" as fallback if the browser doesn't import the font correctly. This is a common font used in websites, is easy to read and provides good contrast with the title font.
 
 #### Colours
 
@@ -81,15 +89,17 @@ Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
 I used [Paletton](http://paletton.com/) to research a colourscheme for the site. Based on the overview of the site I knew we wanted to include a natural element in the colourscheme to represent the nature of the products, along with a hint of femininity that represents the client's personality.
 
-------
+
 
 <details><summary>Main colour scheme for the site</summary>
 <img src="assets/images/folded-colours.png">
 </details>
-
 
 * __Antique White__ is the colour I chose for the background of various sections across the site. This was partly an accesibility choice that was made in the absence of a dark mode option. We wanted the site to appear light and airy without the harshness that can present with pure white. This slight off-white colour more closely fits with the yellow-tones that compliment the other colours in the triad without being distracting.
 
 * __#04604E__ - This forest green is the colour I chose from using the paletton colour picker as the background for the entire page. It is bold but soft and contrasts well with the antique white to help highlight each section of the pages.
 
 * __#EB5CAD__ - The original paletton triad pallet suggests a more purple-tone pink to go with the green. I decided I wanted something lighter and more feminine that would contrast with the deep colour of the green background. This shade of pink it used for elements in the header and footer along with various elements that require highlighting - including hover effects for buttons.
+
+## Features
+
