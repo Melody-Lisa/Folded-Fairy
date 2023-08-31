@@ -58,7 +58,10 @@ As the site is starting out quite simply, the navigation route will be linear an
 
 #### Wireframes
 
-![Folded Fairy Full Responsive Wireframes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d666c1f3-131f-4608-ae9d-492aadf03959)
+<details><summary>Folded Fairy Full Responsive Wireframes</summary>
+<img src="assets/images/full-wireframes.png">
+</details>
+
 
 ### Surface
 
