@@ -17,7 +17,7 @@ This is the documentation for The Folded Fairy. The site has been built using HT
 
 - #### User Stories
 
-  * First Time Visitor Goals
+  * __First Time Visitor Goals__
 
     a. As a first time visitor, I want to be able to easily understand the purpose of the website and to learn more about the business.
     
@@ -25,13 +25,13 @@ This is the documentation for The Folded Fairy. The site has been built using HT
     
     c. As a first time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-  * Returning Visitor Goals
+  * __Returning Visitor Goals__
 
     a. As a returning visitor, I want to be able to see new creations made by the business to see how often they are creating products.
     
     b. As a returning visitor, I want to know how to contact the business for more information if I wanted a design of my own.
 
-  * Frequent User Goals
+  * __Frequent User Goals__
     
     a. As a frequent user, I want to see new creations made by the business.
     
@@ -59,3 +59,15 @@ As the site is starting out quite simply, the navigation route will be linear an
 #### Wireframes
 
 ![Folded Fairy Full Responsive Wireframes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d666c1f3-131f-4608-ae9d-492aadf03959)
+
+### Surface
+
+#### Typography
+
+Fonts have been imported from [Google Fonts](https://fonts.google.com/).
+
+* The "Luxurious Script" font has been used for the main title on each page along with subheadings and certain parts of the about section. "Cursive" is the fallback font in case the browser doesn't import the font correctly. I chose this style of font as I believe it compliments the style of the product.
+
+* The "Montserrat" font has been used for the main text across the site with "sans-serif" as fallback if the browser doesn't import the font correctly. This is a common font used in websites, is easy to read and provides good contrast with the title font.
+
+#### Colours
