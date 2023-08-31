@@ -103,3 +103,63 @@ I used [Paletton](http://paletton.com/) to research a colourscheme for the site.
 
 ## Features
 
+### Site-Wide
+
+<details><summary>Desktop Header</summary>
+<img src="assets/images/folded-header.png">
+</details>
+
+<details><summary>Mobile Header</summary>
+<img src="assets/images/folded-header-sm.png">
+</details>
+
+On larger screens the header's logo title sits at the left of the navbar and the navigation links sit on the right as HOME | GALLERY | CONTACT. On smaller screens the logo and links are pushed to the middle of the screen with the logo on top and icons representing each of the links sitting below.
+
+<details><summary>Desktop Footer</summary>
+<img src="assets/images/folded-footer.png">
+</details>
+
+<details><summary>Mobile Footer</summary>
+<img src="assets/images/folded-footer-sm.png">
+</details>
+
+On larger screens the copyright information shows the copyright icon followed by "Folded Fairy 2023" to the left of the footer bar. On the right of the footer there are three socials icons for FACEBOOK | INSTRGRAM | PINTEREST. This layout remains relatively similar on smaller screens with only "2023" shown after the copyright symbol.
+
+<details><summary>Hero Image Fade-in Animation</summary>
+<img src="assets/images/folded-fadein.png">
+</details>
+
+On the home and contact pages the hero image fades into view over 4 seconds using a keyframes animation. This has also been applied to the gallery carousel as the page loads.
+
+### Home Page
+
+<details><summary>About Section</summary>
+<img src="assets/images/folded-about.png">
+</details>
+
+The about section is a simple box with letter-style content describing the business and what it's about. 
+
+<details><summary>Responsive Reviews Section</summary>
+<img src="assets/images/folded-responsive-review.png">
+</details>
+
+Using bootstrap's grid styling, the reviews section has a responsive layout that changes for three different breakpoints. On smaller screens the reviews stack one on top of the other, medium screens show two reviews side by side with two on their own lines, and on larger screens the reviews are shown two on top and two on the bottom.
+
+### Gallery
+
+<details><summary>Gallery Full Page Carousel</summary>
+<img src="assets/images/folded-gallery.png">
+</details>
+
+The carousel has an autoplay feature that requires user interaction before it starts. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
+
+### Contact
+
+<details><summary>Responsive Contact Form</summary>
+<img src="assets/images/folded-contact.png">
+</details>
+
+<details><summary>Coming Soon Modal</summary>
+<img src="assets/images/folded-modal.png">
+</details>
+
