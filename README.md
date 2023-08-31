@@ -75,16 +75,21 @@ Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
 #### Colours
 
-![Screenshot of initial Paletton testing](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/cf2881d4-b291-4a2f-9d15-58c24bebf5aa)
+<details><summary>Initial colourscheme ideas through Paletton</summary>
+<img src="assets/images/initial-paletton.png">
+</details>
 
 I used [Paletton](http://paletton.com/) to research a colourscheme for the site. Based on the overview of the site I knew we wanted to include a natural element in the colourscheme to represent the nature of the products, along with a hint of femininity that represents the client's personality.
 
 ------
 
-![Main colours used on the site](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d22083c7-ea9f-48d5-97a8-7ad8cbb69b63)
+<details><summary>Main colour scheme for the site</summary>
+<img src="assets/images/folded-colours.png">
+</details>
+
 
 * __Antique White__ is the colour I chose for the background of various sections across the site. This was partly an accesibility choice that was made in the absence of a dark mode option. We wanted the site to appear light and airy without the harshness that can present with pure white. This slight off-white colour more closely fits with the yellow-tones that compliment the other colours in the triad without being distracting.
 
 * __#04604E__ - This forest green is the colour I chose from using the paletton colour picker as the background for the entire page. It is bold but soft and contrasts well with the antique white to help highlight each section of the pages.
 
-* __#EB5CAD__ - 
+* __#EB5CAD__ - The original paletton triad pallet suggests a more purple-tone pink to go with the green. I decided I wanted something lighter and more feminine that would contrast with the deep colour of the green background. This shade of pink it used for elements in the header and footer along with various elements that require highlighting - including hover effects for buttons.
