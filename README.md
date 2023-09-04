@@ -64,7 +64,7 @@ As the site is starting out quite simply, the navigation route will be linear an
 #### Wireframes
 
 <details><summary>Folded Fairy Full Responsive Wireframes</summary>
-<img src="assets/images/full-wireframes.png">
+<img src="assets/images/full-wireframes.png" alt="Wireframes of the site's general layout made with figma">
 </details>
 
 -----
@@ -84,15 +84,14 @@ Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 #### Colours
 
 <details><summary>Initial colourscheme ideas through Paletton</summary>
-<img src="assets/images/initial-paletton.png">
+<img src="assets/images/initial-paletton.png" alt="Screenshot of a colour wheel with a triad of colours selected. A colour pallet to the side shows the green, purple, and yellow colours selected in the wheel.">
 </details>
 
 I used [Paletton](http://paletton.com/) to research a colourscheme for the site. Based on the overview of the site I knew we wanted to include a natural element in the colourscheme to represent the nature of the products, along with a hint of femininity that represents the client's personality.
 
 
-
 <details><summary>Main colour scheme for the site</summary>
-<img src="assets/images/folded-colours.png">
+<img src="assets/images/folded-colours.png" alt="The three main colours chosen for the site - off white, green and pink. More description below.">
 </details>
 
 * __Antique White__ is the colour I chose for the background of various sections across the site. This was partly an accesibility choice that was made in the absence of a dark mode option. We wanted the site to appear light and airy without the harshness that can present with pure white. This slight off-white colour more closely fits with the yellow-tones that compliment the other colours in the triad without being distracting.
@@ -101,32 +100,34 @@ I used [Paletton](http://paletton.com/) to research a colourscheme for the site.
 
 * __#EB5CAD__ - The original paletton triad pallet suggests a more purple-tone pink to go with the green. I decided I wanted something lighter and more feminine that would contrast with the deep colour of the green background. This shade of pink it used for elements in the header and footer along with various elements that require highlighting - including hover effects for buttons.
 
+-------
+
 ## Features
 
 ### Site-Wide
 
 <details><summary>Desktop Header</summary>
-<img src="assets/images/folded-header.png">
+<img src="assets/images/folded-header.png" alt="An off-white header with the site logo on the left and nav links on the right. The logo and active page are pink and the unactive links are black">
 </details>
 
 <details><summary>Mobile Header</summary>
-<img src="assets/images/folded-header-sm.png">
+<img src="assets/images/folded-header-sm.png" alt="An off-white header with the site logo and nav links sit one above the other in the center. The logo and active page are pink and the unactive links are black">
 </details>
 
 On larger screens the header's logo title sits at the left of the navbar and the navigation links sit on the right as HOME | GALLERY | CONTACT. On smaller screens the logo and links are pushed to the middle of the screen with the logo on top and icons representing each of the links sitting below.
 
 <details><summary>Desktop Footer</summary>
-<img src="assets/images/folded-footer.png">
+<img src="assets/images/folded-footer.png" alt="An off-white footer with copyright information to the left and socials icons to the right. All content within the footer is pink.">
 </details>
 
 <details><summary>Mobile Footer</summary>
-<img src="assets/images/folded-footer-sm.png">
+<img src="assets/images/folded-footer-sm.png" alt="An off-white footer with condensed copyright information to the left and socials icons to the right. All content within the footer is pink.">
 </details>
 
 On larger screens the copyright information shows the copyright icon followed by "Folded Fairy 2023" to the left of the footer bar. On the right of the footer there are three socials icons for FACEBOOK | INSTRGRAM | PINTEREST. This layout remains relatively similar on smaller screens with only "2023" shown after the copyright symbol.
 
 <details><summary>Hero Image Fade-in Animation</summary>
-<img src="assets/images/folded-fadein.png">
+<img src="assets/images/folded-fadein.png" alt="A screenshot of the hero image - a flower sitting on top of a book. The screenshot shows the image in the process of fading into view.">
 </details>
 
 On the home and contact pages the hero image fades into view over 4 seconds using a keyframes animation. This has also been applied to the gallery carousel as the page loads.
@@ -134,13 +135,13 @@ On the home and contact pages the hero image fades into view over 4 seconds usin
 ### Home Page
 
 <details><summary>About Section</summary>
-<img src="assets/images/folded-about.png">
+<img src="assets/images/folded-about.png" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The text within is black.">
 </details>
 
 The about section is a simple box with letter-style content describing the business and what it's about. 
 
 <details><summary>Responsive Reviews Section</summary>
-<img src="assets/images/folded-responsive-review.png">
+<img src="assets/images/folded-responsive-review.png" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes. The text within is black.">
 </details>
 
 Using bootstrap's grid styling, the reviews section has a responsive layout that changes for three different breakpoints. On smaller screens the reviews stack one on top of the other, medium screens show two reviews side by side with two on their own lines, and on larger screens the reviews are shown two on top and two on the bottom.
@@ -148,7 +149,7 @@ Using bootstrap's grid styling, the reviews section has a responsive layout that
 ### Gallery
 
 <details><summary>Gallery Full Page Carousel</summary>
-<img src="assets/images/folded-gallery.png">
+<img src="assets/images/folded-gallery.png" alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with off-white text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
 </details>
 
 The carousel has an autoplay feature that requires user interaction before it starts. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
@@ -156,10 +157,15 @@ The carousel has an autoplay feature that requires user interaction before it st
 ### Contact
 
 <details><summary>Responsive Contact Form</summary>
-<img src="assets/images/folded-contact.png">
+<img src="assets/images/folded-contact.png" alt="Multiple screen size views of the contact page. The background is green and the content sits in an off-white box. The text within is black, input fields have a green border and the submit button is green.">
 </details>
 
 <details><summary>Coming Soon Modal</summary>
-<img src="assets/images/folded-modal.png">
+<img src="assets/images/folded-modal.png" alt="Multiple screen size views of the contact modal. A pop up overlays the contact page indicating that this feature is not yet functional.">
 </details>
 
+The contact form has a responsive design which pushes the input labels above the input field on small screen devices. If you click the submit button at this time a modal will appear indicating that the feature is not yet available and that it will be possible to use the contact form soon.
+
+------
+
+## Accessibility
