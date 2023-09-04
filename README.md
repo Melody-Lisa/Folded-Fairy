@@ -170,3 +170,6 @@ The contact form has a responsive design which pushes the input labels above the
 
 ## Future Implementations
 
+1. The next step in the creation of this website is to create functionality to the contact form. Due to the nature of this project, the html and css elements have been created with minimal javascript and back-end functionality.
+
+2. The client has social media presence on platforms that are not featured on this version of the site. Due to their regular engagement with social media it may be beneficial to dedicate a page to featured videos and posts from various platforms.
