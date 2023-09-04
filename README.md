@@ -168,4 +168,5 @@ The contact form has a responsive design which pushes the input labels above the
 
 ------
 
-## Accessibility
+## Future Implementations
+
