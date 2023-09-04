@@ -27,6 +27,7 @@ main {
     border-bottom: #04604e 1px solid;
     z-index: 10;
     margin: 0 auto;
+    z-index: 10;
 }
 
 
