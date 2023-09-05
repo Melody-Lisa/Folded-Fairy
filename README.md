@@ -263,3 +263,46 @@ To clone the Folded-Fairy repository:
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+-----
+
+## Testing
+
+(Link to testing doc when done).
+
+-----
+
+## Credits
+
+### Code Used
+
+* [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/): Insert the carousel on the gallery page.
+
+* [ByteGrad](https://www.youtube.com/watch?v=zVjAA6UxvtU) - Youtube: Insert the carousel on the gallery page.
+
+* [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/15fe9d557bcc4af5a117465b9150454f/) - Love Running Mini Project: Support with styling within style.css and code from the form challenge.
+
+* [Code Institute](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/d2a9b1d3309349bba53e1debbe4c60a9/) - Introduction to Bootstrap: Support with styling through Bootstrap including how to use the grid system.
+
+* [Jamie Juliver](https://blog.hubspot.com/website/css-fade-in#image-transition) - Blog: Fade In animation on hero image and carousel.
+
+* [Stack Overflow](https://stackoverflow.com/questions/43949695/replace-text-in-menu-with-icon-in-small-screen-bootstrap): Using Bootstrap to hide and show elements of nav bar on different screen sizes.
+
+* [Stack Overflow](https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link): Create the link "Get a Quote" from the gallery page to the contact page.
+
+* [W3Schools](https://www.w3schools.com/tags/tag_textarea.asp): Text area in contact form.
+
+### Content
+
+* [ChatGPT](https://chat.openai.com/): Used to generate content in the about section.
+* [Melody Lisa](https://github.com/Melody-Lisa): All other content created by the developer.
+
+### Media
+
+* Business Owner: Photos of products for the gallery page provided by the site's client.
+
+* [Pexels](https://www.pexels.com/photo/maroon-flower-on-top-of-brown-book-2014695/): Used to source the hero image for the site.
+
+* [UI.dev](https://ui.dev/amiresponsive): Used to generate images that showcase the responsive design within the readme file.
+
+### Acknowledgements
