@@ -67,6 +67,8 @@ As the site is starting out quite simply, the navigation route will be linear an
 <img src="assets/images/full-wireframes.png" alt="Wireframes of the site's general layout made with figma">
 </details>
 
+All wireframes have been created with [Figma](https://figma.com/).
+
 -----
 
 ## User Interface (UI) Design
@@ -94,6 +96,8 @@ I used [Paletton](http://paletton.com/) to research a colourscheme for the site.
 <img src="assets/images/folded-colours.png" alt="The three main colours chosen for the site - off white, green and pink. More description below.">
 </details>
 
+Colour scheme images made with [Figma](https://figma.com/).
+
 * __Antique White__ is the colour I chose for the background of various sections across the site. This was partly an accesibility choice that was made in the absence of a dark mode option. We wanted the site to appear light and airy without the harshness that can present with pure white. This slight off-white colour more closely fits with the yellow-tones that compliment the other colours in the triad without being distracting.
 
 * __#04604E__ - This forest green is the colour I chose from using the paletton colour picker as the background for the entire page. It is bold but soft and contrasts well with the antique white to help highlight each section of the pages.
@@ -107,7 +111,7 @@ I used [Paletton](http://paletton.com/) to research a colourscheme for the site.
 ### Site-Wide
 
 <details><summary>Desktop Header</summary>
-<img src="assets/images/folded-header.png" alt="An off-white header with the site logo on the left and nav links on the right. The logo and active page are pink and the unactive links are black">
+<img src="assets/images/folded-header.png" alt="An off-white header with the site logo on the left and nav links on the right. The logo and active page are pink, and the unactive links are black">
 </details>
 
 <details><summary>Mobile Header</summary>
@@ -152,7 +156,7 @@ Using bootstrap's grid styling, the reviews section has a responsive layout that
 <img src="assets/images/folded-gallery.png" alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with off-white text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
 </details>
 
-The carousel has an autoplay feature that requires user interaction before it starts. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
+The carousel originally had an autoplay feature that required user interaction before it starts but, after testing with a screen reader, this feature was removed. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
 
 ### Contact
 
@@ -180,6 +184,28 @@ The contact form has a responsive design which pushes the input labels above the
 
 ### Alt Text
 
+Alternative text has been included for all images across the site, including all images within the readme file.
+
 ### Aria Labels
 
-Aria labels have been 
+Aria labels have been included for all links across the site, as well as the copyright icon in the footer.
+
+### Colours
+
+The colours across the site have been chosen with light sensitive users in mind. The client and I wanted the site to be light and airy with a lot of colour, without being harsh on the eyes. The colours chosen provide contrast that makes reading content easy while also creating a muted effect to reduce glare.
+
+### Fonts
+
+The main font is plain and easy to read. The cursive font used for the main heading and various sections throughout has been styled with extra letter spacing to make it easier to read.
+
+-------
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+
+### Frameworks, Libraries, and Programs Used
+
