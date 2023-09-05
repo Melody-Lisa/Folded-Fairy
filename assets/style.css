@@ -27,10 +27,7 @@ main {
     border-bottom: #04604e 1px solid;
     z-index: 10;
     margin: 0 auto;
-    z-index: 10;
 }
-
-
 
 #logo {
     font-family: 'Luxurious Script', cursive;
@@ -55,8 +52,6 @@ main {
     float: left;
 }
 
-
-
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -77,8 +72,6 @@ main {
 #menu {
     line-height: 30px;
 }
-
-
 
 #hero-outer {
     height: 80vh;
@@ -146,7 +139,6 @@ h2 {
     padding-top: 5px;
 }
 
-
 #foot {
     width: 100vw;
     height: 40px;
@@ -213,7 +205,6 @@ h2 {
     text-align: center;
 }
 
-
 /* Gallery */
 
 #hero-carousel {
@@ -246,6 +237,7 @@ h2 {
     letter-spacing: 1px;
 }
 
+/*Box shadow code from W3schools*/
 .btn-dark {
     text-transform: capitalize;
     font-family: 'Montserrat';
@@ -265,9 +257,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-.carousel-control-prev-icon {
-    color: #04604e;
-}
 
 /* Contact */
 
@@ -301,7 +290,8 @@ h2 {
 }
 
 
-/* Keyframe */
+/* Keyframe 
+Fade in animation from hubspot blog*/
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -360,16 +350,4 @@ h2 {
         justify-content: center;
 
     }
-
-    .visually-hidden {
-        position: absolute;
-        overflow: hidden;
-        clip: rect(0 0 0 0);
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        border: 0;
-      }
-
 }
