@@ -9,6 +9,45 @@ This is the documentation for The Folded Fairy. The site has been built using HT
 
 ******
 
+## Contents
+
+* [User Experience (UX)](#user-experience-ux)
+  * [Strategy](#strategy)
+    * [User Stories](#user-stories)
+  * [Scope](#scope)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+* [User Interface (UI) Design](#user-interface-ui-design)
+  * [Typography](#typography)
+  * [Colours](#colours)
+* [Features](#features)
+  * [Site-Wide](#site-wide)
+  * [Home Page](#home-page)
+  * [Gallery](#gallery)
+  * [Contact](#contact)
+* [Future Implementations](#future-implementations)
+* [Accessibility](#accessibility)
+  * [Alt Text](#alt-text)
+  * [Aria Labels](#aria-labels)
+  * [Colours](#colours-1)
+  * [Fonts](#fonts)
+* [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Frameworks, Libraries, and Programs Used](#frameworks-libraries-and-programs-used)
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Achnowledgements](#acknowledgements)
+
+-----
+
 ## User Experience (UX)
 
 ### Strategy
@@ -246,7 +285,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 ### Local Development
 
-* How to Fork
+* #### How to Fork
 
 To fork the Folded-Fairy repository:
 
@@ -254,7 +293,7 @@ To fork the Folded-Fairy repository:
 2. Go to the repository for [this project](https://github.com/Melody-Lisa/Folded-Fairy/).
 3. Click the Fork button in the top right corner.
 
-* How to Clone
+* #### How to Clone
 
 To clone the Folded-Fairy repository:
 
