@@ -209,3 +209,22 @@ The main font is plain and easy to read. The cursive font used for the main head
 
 ### Frameworks, Libraries, and Programs Used
 
+* [Bootstrap V5.3](https://getbootstrap.com/) - The framework for the website. Code for the navigation bar, carousel and modal were used and modified. Additional CSS styling was also implemented in style.css.
+
+* [Figma](https://figma.com/) - For wireframes and other graphics in readme.
+
+* [Font Awesome](https://fontawesome.com/) - For the iconography on the website.
+
+* Git - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Pexels](https://pexels.com/) - For stock image.
+
+* Samgsung Accessibility Settings - To test site with screen reader on mobile.
+
+* [UI.dev](https://ui.dev/amiresponsive) - To show the site on a range of screen sizes.
