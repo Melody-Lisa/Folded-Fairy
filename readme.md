@@ -46,6 +46,8 @@ This is the documentation for The Folded Fairy. The site has been built using HT
   * [Media](#media)
   * [Achnowledgements](#acknowledgements)
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 -----
 
 ## User Experience (UX)
@@ -76,6 +78,8 @@ This is the documentation for The Folded Fairy. The site has been built using HT
     
     b. As a frequent visitor, I want to be able to check for new features as the website expands.
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 -----
 
 ### Scope
@@ -90,11 +94,15 @@ As well as the three main pages, links to the business' social media pages would
 
 These three pages give the client a good starting idea about the potential for having their own website with room to expand the site to include more features in the future.
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 -----
 
 ### Structure
 
 As the site is starting out quite simply, the navigation route will be linear and will encourage users to read about the business, view some of the past products and then contact the business for more information. This will be the order that the pages appear in the navigation bar along with interactive calls to action and links within the content of the pages to encourage users to click over to the next area of the site.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 -----
 
@@ -107,6 +115,8 @@ As the site is starting out quite simply, the navigation route will be linear an
 </details>
 
 All wireframes have been created with [Figma](https://figma.com/).
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 -----
 
@@ -142,6 +152,8 @@ Colour scheme images made with [Figma](https://figma.com/).
 * __#04604E__ - This forest green is the colour I chose from using the paletton colour picker as the background for the entire page. It is bold but soft and contrasts well with the antique white to help highlight each section of the pages.
 
 * __#EB5CAD__ - The original paletton triad pallet suggests a more purple-tone pink to go with the green. I decided I wanted something lighter and more feminine that would contrast with the deep colour of the green background. This shade of pink it used for elements in the header and footer along with various elements that require highlighting - including hover effects for buttons.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 -------
 
@@ -209,6 +221,8 @@ The carousel originally had an autoplay feature that required user interaction b
 
 The contact form has a responsive design which pushes the input labels above the input field on small screen devices. If you click the submit button at this time a modal will appear indicating that the feature is not yet available and that it will be possible to use the contact form soon.
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 ------
 
 ## Future Implementations
@@ -216,6 +230,8 @@ The contact form has a responsive design which pushes the input labels above the
 1. The next step in the creation of this website is to create functionality to the contact form. Due to the nature of this project, the html and css elements have been created with minimal javascript and back-end functionality.
 
 2. The client has social media presence on platforms that are not featured on this version of the site. Due to their regular engagement with social media it may be beneficial to dedicate a page to featured videos and posts from various platforms.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 -----
 
@@ -236,6 +252,8 @@ The colours across the site have been chosen with light sensitive users in mind.
 ### Fonts
 
 The main font is plain and easy to read. The cursive font used for the main heading and various sections throughout has been styled with extra letter spacing to make it easier to read.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 -------
 
@@ -267,6 +285,8 @@ The main font is plain and easy to read. The cursive font used for the main head
 * Samgsung Accessibility Settings - To test site with screen reader on mobile.
 
 * [UI.dev](https://ui.dev/amiresponsive) - To show the site on a range of screen sizes.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 -------
 
@@ -303,11 +323,15 @@ To clone the Folded-Fairy repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 -----
 
 ## Testing
 
 (Link to testing doc when done).
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 -----
 
@@ -345,3 +369,6 @@ To clone the Folded-Fairy repository:
 * [UI.dev](https://ui.dev/amiresponsive): Used to generate images that showcase the responsive design within the readme file.
 
 ### Acknowledgements
+
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
