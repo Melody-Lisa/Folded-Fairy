@@ -1,5 +1,7 @@
 # Folded-Fairy - Testing
 
+-----
+
 ## Automated Testing
 
 This automated testing section contains all testing that has been run through a program to produce validation and performance insights.
@@ -39,6 +41,9 @@ This automated testing section contains all testing that has been run through a 
 </details>
 <img width="889" alt="No errors" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/174478a9-9d01-4e3a-9a87-03ad93a14dea">
 
+
+All HTML and CSS tested through the validator returned no errors or warnings.
+
 ### Lighthouse
 
 The lighthouse tool within the chrome developer tools has been used to test performance, best practices, accessibility, and SEO. Desktop and mobile tests have been run for each page.
@@ -49,14 +54,60 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 <img width="401" alt="lighthouse mobile results - home" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/0f63a2f3-b309-4ae2-ab57-8a568e6a5b00">
 </details>
 
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 81 | 95 | 100 | 100 |
+| Mobile | 72 | 95 | 100 | 100 |
+
+
 <details><summary>Gallery</summary>
 <img width="401" alt="lighthouse desktop results - gallery" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/93d024a0-de73-49af-a7f0-4243e545d1ae">
 
 <img width="400" alt="lighthouse mobile results - gallery" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/9dfe5c80-3a5a-42dc-949f-043f1343a061">
 </details>
 
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 79 | 97 | 100 | 100 |
+| Mobile | 68 | 97 | 100 | 100 |
+
 <details><summary>Contact</summary>
 <img width="403" alt="lighthouse desktop - contact" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/ba1ff07b-0382-45ca-85d7-1715ec867c89">
 
 <img width="402" alt="lighthouse mobile - contact" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/576e5d83-3d1c-4eca-940f-20586b35a60c">
 </details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 80 | 96 | 100 | 100 |
+| Mobile | 73 | 96 | 100 | 100 |
+
+------
+
+## Manual Testing
+
+### Testing User Stories
+
+#### First Time Visitor Goals
+
+> As a first time visitor, I want to be able to easily understand the purpose of the website and to learn more about the business.
+
+The home page of the site serves the purpose of introducing the business and product to first time visitors.
+
+> As a first time visitor, I want to be able to easily navigate the site to access content without having to use the back button at any time.
+
+The site has a clear and easy to follow nav bar at the top of each page which indicates which page you are currently on as well as buttons on the gallery page that encourage the visitor to continue to the contact page.
+
+> As a first time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
+#### Returning Visitor Goals
+
+> As a returning visitor, I want to be able to see new creations made by the business to see how often they are creating products.
+
+> As a returning visitor, I want to know how to contact the business for more information if I wanted a design of my own.
+
+#### Frequent User Goals
+
+> As a frequent user, I want to see new creations made by the business.
+
+> As a frequent visitor, I want to be able to check for new features as the website expands.
