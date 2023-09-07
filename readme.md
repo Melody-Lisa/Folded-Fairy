@@ -11,13 +11,13 @@ This is the documentation for The Folded Fairy. The site has been built using HT
 
 ## Contents
 
-* [User Experience (UX)](#user-experience-ux)
+* [User Experience (UX)](#user-experience---ux)
   * [Strategy](#strategy)
     * [User Stories](#user-stories)
   * [Scope](#scope)
   * [Structure](#structure)
   * [Skeleton](#skeleton)
-* [User Interface (UI) Design](#user-interface-ui-design)
+* [User Interface (UI) Design](#user-interface---design)
   * [Typography](#typography)
   * [Colours](#colours)
 * [Features](#features)
@@ -50,7 +50,7 @@ This is the documentation for The Folded Fairy. The site has been built using HT
 
 -----
 
-## User Experience (UX)
+## User Experience - UX
 
 ### Strategy
 
@@ -120,7 +120,7 @@ All wireframes have been created with [Figma](https://figma.com/).
 
 -----
 
-## User Interface (UI) Design
+## User Interface - Design
 
 ### Surface
 
@@ -329,7 +329,7 @@ To clone the Folded-Fairy repository:
 
 ## Testing
 
-(Link to testing doc when done).
+Please see [testing.md](testing.md) for all testing elements of this site.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
