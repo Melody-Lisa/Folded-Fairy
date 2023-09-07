@@ -39,3 +39,24 @@ This automated testing section contains all testing that has been run through a 
 </details>
 <img width="889" alt="No errors" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/174478a9-9d01-4e3a-9a87-03ad93a14dea">
 
+### Lighthouse
+
+The lighthouse tool within the chrome developer tools has been used to test performance, best practices, accessibility, and SEO. Desktop and mobile tests have been run for each page.
+
+<details><summary>Home Page</summary>
+<img width="399" alt="lighthouse desktop results - home" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/526bc4f5-3e2e-478f-b9b1-26037e65f5f3">
+
+<img width="401" alt="lighthouse mobile results - home" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/0f63a2f3-b309-4ae2-ab57-8a568e6a5b00">
+</details>
+
+<details><summary>Gallery</summary>
+<img width="401" alt="lighthouse desktop results - gallery" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/93d024a0-de73-49af-a7f0-4243e545d1ae">
+
+<img width="400" alt="lighthouse mobile results - gallery" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/9dfe5c80-3a5a-42dc-949f-043f1343a061">
+</details>
+
+<details><summary>Contact</summary>
+<img width="403" alt="lighthouse desktop - contact" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/ba1ff07b-0382-45ca-85d7-1715ec867c89">
+
+<img width="402" alt="lighthouse mobile - contact" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/576e5d83-3d1c-4eca-940f-20586b35a60c">
+</details>
