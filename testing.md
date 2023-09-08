@@ -90,24 +90,24 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 
 #### First Time Visitor Goals
 
-> As a first time visitor, I want to be able to easily understand the purpose of the website and to learn more about the business.
+> * As a first time visitor, I want to be able to easily understand the purpose of the website and to learn more about the business.
 
 The home page of the site serves the purpose of introducing the business and product to first time visitors.
 
-> As a first time visitor, I want to be able to easily navigate the site to access content without having to use the back button at any time.
+> * As a first time visitor, I want to be able to easily navigate the site to access content without having to use the back button at any time.
 
 The site has a clear and easy to follow nav bar at the top of each page which indicates which page you are currently on as well as buttons on the gallery page that encourage the visitor to continue to the contact page.
 
-> As a first time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+> * As a first time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
 #### Returning Visitor Goals
 
-> As a returning visitor, I want to be able to see new creations made by the business to see how often they are creating products.
+> * As a returning visitor, I want to be able to see new creations made by the business to see how often they are creating products.
 
-> As a returning visitor, I want to know how to contact the business for more information if I wanted a design of my own.
+> * As a returning visitor, I want to know how to contact the business for more information if I wanted a design of my own.
 
 #### Frequent User Goals
 
-> As a frequent user, I want to see new creations made by the business.
+> * As a frequent user, I want to see new creations made by the business.
 
-> As a frequent visitor, I want to be able to check for new features as the website expands.
+> * As a frequent visitor, I want to be able to check for new features as the website expands.
