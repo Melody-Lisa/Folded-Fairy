@@ -135,3 +135,12 @@ Full testing was performed on the following devices:
 * Mobile
   * Samsung Galaxy S20 FE 5G
   * Samsung Galaxy S10
+
+
+------
+
+## Bugs
+
+### Solved Bugs
+
+### Known Bugs
