@@ -108,10 +108,30 @@ There are links to various social media platforms in the footer,  which stays at
 
 > * As a returning visitor, I want to be able to see new creations made by the business to see how often they are creating products.
 
+The gallery page is designed to showcase the best and most recent products created by the company.
+
 > * As a returning visitor, I want to know how to contact the business for more information if I wanted a design of my own.
+
+Users are directed to the contact page from the gallery to encourage them to contact the business about any enquiries they may have.
 
 #### Frequent User Goals
 
 > * As a frequent user, I want to see new creations made by the business.
 
+The gallery page is designed to showcase the best and most recent products created by the company. Future implementations of the site may include more features that keep visitors up to date on events and products. 
+
 > * As a frequent visitor, I want to be able to check for new features as the website expands.
+
+Future implementations of the site may see expansion of the site. 
+
+
+### Full Testing
+
+Full testing was performed on the following devices:
+
+* Laptop
+  * Lenovo IDEAPAD Flex 5i
+
+* Mobile
+  * Samsung Galaxy S20 FE 5G
+  * Samsung Galaxy S10
