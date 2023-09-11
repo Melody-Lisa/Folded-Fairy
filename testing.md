@@ -161,6 +161,8 @@ Additional testing has been carried out by friends and colleagues including on a
 | Contact page send button | Opens "coming soon" modal | Click button | Modal appears | __Pass__ |
 | Modal close button | Closes modal back to contact page | Click button | Modal closes | __Pass__ |
 | Footer Socials links | Opens a new page to each social | Click icons | Each link opens new page to it's respective site | __Pass__ |
+| Alt text on images | Provides descriptions of images across the site | Browsed site on desktop and mobile with screen readers active | Screen readers read descriptions of images | __Pass__ |
+| Aria labels on links | Provides descriptions of links across the site | Browsed site on desktop and mobile with screen readers active | Screen readers read descriptions of links | __Pass__ |
 
 ------
 
