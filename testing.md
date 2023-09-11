@@ -135,7 +135,32 @@ Full testing was performed on the following devices:
 * Mobile
   * Samsung Galaxy S20 FE 5G
   * Samsung Galaxy S10
+ 
+ Desktop device tested the site using the following browsers:
+ 
+ * Google Chrome
+ * Mozilla Firefox
+ * Opera
+ * Microsoft Edge
 
+Additional testing has been carried out by friends and colleagues including on apple devices and safari with no bugs reported back.
+
+#### Manual Features Tests
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Site's title | Link directs user back to the home page | Clicked title | Home page reloads | __Pass__ |
+| Nav links hover effect | Link changes colour to pink and underlines | Hover mouse over link | Colour changes and underlines text | __Pass__ |
+| The Home nav link | Link directs user to the home page | Clicked link | Home page reloads | __Pass__ |
+| The Gallery nav link | Link directs user to the gallery page | Clicked link | Gallery page loads | __Pass__ |
+| The carousel next arrow | Scrolls carousel to next item | Clicked arrow | Next item appears | __Pass__ |
+| The carousel previous arrow | Scrolls carousel to the previous item | Clicked arrow | Previous item appears | __Pass__ |
+| The "Get a Quote" buttons on carousel items | Directs user to the contact page | Clicked button | Contact page loads | __Pass__ |
+| The Contact nav link | Directs user to contact page | Clicked link | Contact page loads | __Pass__ |
+| All buttons hover effect | Button changes colour from green to pink | Hover mouse over buttons | Colour changes | __Pass__ |
+| Contact page send button | Opens "coming soon" modal | Click button | Modal appears | __Pass__ |
+| Modal close button | Closes modal back to contact page | Click button | Modal closes | __Pass__ |
+| Footer Socials links | Opens a new page to each social | Click icons | Each link opens new page to it's respective site | __Pass__ |
 
 ------
 
