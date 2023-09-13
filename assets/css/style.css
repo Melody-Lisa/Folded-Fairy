@@ -14,11 +14,6 @@ footer {
     display: flex;
 }
 
-main {
-    overflow-y: scroll;
-    flex: auto;
-}
-
 #navbar {
     background-color: antiquewhite;
     width: 100%;
@@ -31,7 +26,7 @@ main {
 #logo {
     font-family: 'Luxurious Script', cursive;
     font-weight: 400;
-    font-size: 150%;
+    font-size: 200%;
     letter-spacing: 6px;
     color: #04604e;
     float: left;
@@ -49,12 +44,10 @@ main {
 }
 
 #menu li {
-    font-size: 100%;
     list-style-type: none;
     letter-spacing: 4px;
     margin-right: 20px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    padding: 10px 15px 10px 0;
     float: left;
 }
 
