@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Site Wide */
-
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #04604e;
@@ -80,7 +79,6 @@ main {
     overflow: hidden;
 
     position: relative;
-
 }
 
 #heroimage {
@@ -92,15 +90,11 @@ main {
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-
     margin: 0;
-
     filter: brightness(0.7);
-
     animation-name: fadeIn;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-
 }
 
 .cover-div {
@@ -109,28 +103,20 @@ main {
     color: #faebd7;
     text-transform: capitalize;
     letter-spacing: 4px;
-
     width: 50%;
     height: 100px;
-
     padding: 0;
-
     bottom: 75px;
     right: 50px;
-
-
     position: absolute;
-
 }
 
 .cover-text {
     float: right;
-
 }
 
 hr {
     color: antiquewhite;
-
 }
 
 h2 {
@@ -159,12 +145,10 @@ h2 {
 }
 
 .foot-social a:hover {
-
     color: #eb5cad;
 }
 
 /* Homepage */
-
 #about-head,
 #reviews-head {
     margin-top: 5px;
@@ -197,7 +181,6 @@ h2 {
 
 .blockquote {
     height: fit-content;
-
     background-color: antiquewhite;
     margin-bottom: 10px;
     padding: 30px 20px 20px 20px;
@@ -207,7 +190,6 @@ h2 {
 }
 
 /* Gallery */
-
 #hero-carousel {
     animation-name: fadeIn;
     animation-duration: 4s;
@@ -258,9 +240,7 @@ h2 {
     margin-bottom: 50px;
 }
 
-
 /* Contact */
-
 .contact-form {
     background-color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
@@ -278,7 +258,6 @@ h2 {
     margin: 5px 0 20px 0;
     border: 1px solid #04604e;
     border-radius: 15px;
-
 }
 
 .text-area {
@@ -290,14 +269,12 @@ h2 {
     border-radius: 15px;
 }
 
-
 /* Keyframe 
 Fade in animation from hubspot blog*/
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
@@ -307,7 +284,6 @@ Fade in animation from hubspot blog*/
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
@@ -317,7 +293,6 @@ Fade in animation from hubspot blog*/
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
@@ -327,7 +302,6 @@ Fade in animation from hubspot blog*/
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
@@ -337,7 +311,6 @@ Fade in animation from hubspot blog*/
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
