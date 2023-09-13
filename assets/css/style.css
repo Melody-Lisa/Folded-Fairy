@@ -192,6 +192,10 @@ h3 {
     text-align: center;
 }
 
+.blockquote em {
+    font-weight: 500;
+}
+
 /* Gallery */
 #hero-carousel {
     animation-name: fadeIn;
