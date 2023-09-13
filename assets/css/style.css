@@ -97,28 +97,29 @@ main {
     background-size: cover;
     display: flex;
     margin: 0;
-    filter: brightness(0.5);
+    filter: brightness(0.7);
     animation-name: fadeIn;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
-.cover-div {
-    font-size: 120%;
-    font-family: "Luxurious Script", cursive;
-    color: #eb5cad;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-    width: 50%;
-    height: 100px;
-    padding: 0;
+.cover-text {
     bottom: 75px;
     right: 50px;
     position: absolute;
-}
-
-.cover-text {
+    background-color: rgba(0, 0, 0, 0.3);
     float: right;
+    font-family: "Luxurious Script", cursive;
+    color: #eb5cad;
+    font-size: 120%;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    padding: 10px;
+    height: fit-content;
+    margin-bottom: 10px;
+    padding: 30px 20px 20px 20px;
+    border-radius: 15px;
+    clear: both;
 }
 
 hr {
@@ -161,6 +162,7 @@ h3 {
 /* Homepage */
 #reviews {
     margin: 0;
+    justify-content: space-between;
 }
 
 .about-text {
@@ -183,10 +185,10 @@ h3 {
 }
 
 .blockquote {
-    height: fit-content;
+    height: 250px;
     background-color: antiquewhite;
     margin-bottom: 10px;
-    padding: 30px 20px 20px 20px;
+    padding: 30px;
     border-radius: 15px;
     clear: both;
     text-align: center;
