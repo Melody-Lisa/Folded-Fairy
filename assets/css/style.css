@@ -31,12 +31,17 @@ main {
 #logo {
     font-family: 'Luxurious Script', cursive;
     font-weight: 400;
-    font-size: 200%;
+    font-size: 150%;
     letter-spacing: 6px;
-    color: #eb5cad;
+    color: #04604e;
     float: left;
     margin-left: 0px;
     display: flex;
+    padding-top: 10px;
+}
+
+#logo:hover{
+    color: #eb5cad;
 }
 
 .menu-fix {
@@ -49,12 +54,13 @@ main {
     letter-spacing: 4px;
     margin-right: 20px;
     padding-right: 15px;
+    padding-bottom: 10px;
     float: left;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #04604e;
     font-weight: 800;
 }
 
@@ -91,7 +97,7 @@ main {
     background-size: cover;
     display: flex;
     margin: 0;
-    filter: brightness(0.7);
+    filter: brightness(0.5);
     animation-name: fadeIn;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -100,7 +106,7 @@ main {
 .cover-div {
     font-size: 120%;
     font-family: "Luxurious Script", cursive;
-    color: #faebd7;
+    color: #eb5cad;
     text-transform: capitalize;
     letter-spacing: 4px;
     width: 50%;
@@ -116,14 +122,18 @@ main {
 }
 
 hr {
-    color: antiquewhite;
+    color: #eb5cad;
 }
 
-h2 {
-    font-family: "Montserrat";
+h3 {
+    font-family: "montserrat";
     text-align: center;
     text-transform: uppercase;
     padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-decoration: solid underline 2px;
+    color: #eb5cad;
 }
 
 #foot {
@@ -131,7 +141,7 @@ h2 {
     height: 40px;
     border-top: #04604e 1px solid;
     background-color: antiquewhite;
-    color: #eb5cad;
+    color: #04604e;
     position: fixed;
     bottom: 0px;
     z-index: 10;
@@ -139,23 +149,16 @@ h2 {
 
 .foot-social {
     text-decoration: none;
-    color: #eb5cad;
+    color: #04604e;
     font-weight: 800;
     float: right;
 }
 
-.foot-social a:hover {
+.foot-social:hover {
     color: #eb5cad;
 }
 
 /* Homepage */
-#about-head,
-#reviews-head {
-    margin-top: 5px;
-    margin-bottom: 0;
-    text-decoration: solid underline 2px;
-}
-
 #reviews {
     margin: 0;
 }
@@ -241,6 +244,7 @@ h2 {
 }
 
 /* Contact */
+
 .contact-form {
     background-color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
