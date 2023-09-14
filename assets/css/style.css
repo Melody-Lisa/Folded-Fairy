@@ -201,12 +201,14 @@ h3 {
 .c-item {
     margin-top: 20px;
     height: 95vh;
+    position: relative;
 }
 
 .c-img {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7)
+    position: absolute;
 }
 
 .gallery-head {
