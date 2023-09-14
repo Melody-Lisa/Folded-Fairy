@@ -215,11 +215,11 @@ The carousel originally had an autoplay feature that required user interaction b
 <img src="assets/images/folded-contact.png" alt="Multiple screen size views of the contact page. The background is green and the content sits in an off-white box. The text within is black, input fields have a green border and the submit button is green.">
 </details>
 
-<details><summary>Coming Soon Modal</summary>
-<img src="assets/images/folded-modal.png" alt="Multiple screen size views of the contact modal. A pop up overlays the contact page indicating that this feature is not yet functional.">
+<details><summary>FormDump</summary>
+
 </details>
 
-The contact form has a responsive design which pushes the input labels above the input field on small screen devices. If you click the submit button at this time a modal will appear indicating that the feature is not yet available and that it will be possible to use the contact form soon.
+The contact form has a responsive design which pushes the input labels above the input field on small screen devices. If you click the submit button at this time the code institute formdump will appear indicating that the form has worked.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
