@@ -196,19 +196,18 @@ h3 {
     animation-name: fadeIn;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    height: 95vh;
 }
 
 .c-item {
     margin-top: 25px;
     height: 95vh;
-    position: relative;
 }
 
 .c-img {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7)
-    position: absolute;
 }
 
 .gallery-head {
