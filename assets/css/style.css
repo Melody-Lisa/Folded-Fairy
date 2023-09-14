@@ -283,10 +283,6 @@ h3 {
     border-radius: 15px;
 }
 
-.contact-btn {
-    justify-content: center;
-}
-
 /* Keyframe 
 Fade in animation from hubspot blog*/
 @keyframes fadeIn {
