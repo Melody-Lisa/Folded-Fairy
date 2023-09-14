@@ -107,7 +107,6 @@ footer {
     font-size: 120%;
     text-transform: capitalize;
     letter-spacing: 4px;
-    padding: 10px;
     height: fit-content;
     margin-bottom: 10px;
     padding: 30px 20px 20px 20px;
@@ -117,6 +116,8 @@ footer {
 
 hr {
     color: #eb5cad;
+    width: 50%;
+    margin: 0 auto;
 }
 
 h3 {
@@ -210,15 +211,24 @@ h3 {
     filter: brightness(0.7)
 }
 
+.gallery-caption {
+background-color: rgba(0, 0, 0, 0.3);
+    color: #eb5cad;
+    padding-top: 30px;
+    padding-bottom: 0;
+    height: fit-content;
+    border-radius: 15px;
+    clear: both;
+    margin-bottom: 2%;
+}
+
 .gallery-head {
-    color: antiquewhite;
     font-family: "Luxurious Script", cursive;
     letter-spacing: 4px;
     text-transform: capitalize;
 }
 
 .gallery-text {
-    color: antiquewhite;
     font-family: 'Montserrat';
     letter-spacing: 1px;
 }
