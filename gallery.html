@@ -21,30 +21,25 @@
 <body>
     <!-- Header with nav
     Spans used to hide sections of nav links searched on stack overflow-->
-    <header id="navbar" class="navbar row py-0">
+    <header id="navbar" class="navbar row my-0 py-0">
         <a class="col-12 col-lg-6" href="index.html">
             <h1 id="logo" class="d-inline">The Folded Fairy</h1>
         </a>
-        <nav class="col-12 col-lg-6">
-            <div class="menu-fix">
-                <div>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html" aria-label="home"><i class="fa-solid fa-house"></i>
-                                <span class="d-none d-lg-inline">Home</span></a>
-                        </li>
-                        <li>
-                            <a class="active" href="gallery.html" aria-label="gallery"><i
-                                    class="fa-regular fa-images"></i>
-                                <span class="d-none d-lg-inline">Gallery</span></a>
-                        </li>
-                        <li>
-                            <a href="contact.html" aria-label="contact"><i class="fa-solid fa-phone"></i>
-                                <span class="d-none d-lg-inline">Contact</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav class="col-12 col-lg-6 my-auto">
+            <ul id="menu" class="menu-fix my-auto">
+                <li>
+                    <a href="index.html" aria-label="home"><i class="fa-solid fa-house"></i>
+                        <span class="d-none d-lg-inline">Home</span></a>
+                </li>
+                <li>
+                    <a href="gallery.html" aria-label="gallery"><i class="fa-regular fa-images"></i>
+                        <span class="d-none d-lg-inline">Gallery</span></a>
+                </li>
+                <li>
+                    <a class="active" href="contact.html" aria-label="contact"><i class="fa-solid fa-phone"></i>
+                        <span class="d-none d-lg-inline">Contact</span></a>
+                </li>
+            </ul>
         </nav>
     </header>
     <!-- header with nav-->
@@ -52,148 +47,123 @@
     <!-- carousel with images 
     Code for button links taken from stack overflow.
     Carousel created with bootstrap and youtube.-->
-    <article class="container-fluid px-0 py-0" aria-label="article" aria-live="polite">
-        <div id="hero-carousel" class="carousel slide carousel-fade">
-
-            <div class="carousel-inner">
-
-                <div class="carousel-item c-item active">
-                    <img src="assets/images/hero-book.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="Hero image. Flower sitting on a book.">
-                    <div class="carousel-caption">
-                        <h2 class="gallery-head">Gallery</h2>
-                        <hr>
-                        <p class="gallery-text">Click to the next image to begin the slideshow.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/yellow-rose.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="Crystalised folded book with yellow roses appearing to grow from the top.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/wedding.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="Book with folded pages arranged with small white and yellow flowers.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/sunflower.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="Book with folded pages and three sunflowers stacked down the center.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/record-player.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="Book with folded pages and pink roses arranged throughout the folds. The book is sitting atop a modern looking record player.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/pumpkin.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="Book with folded pages. Pumpkins and sunflowers are arranged throughout the folds.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/pink-rose.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="A crystallised folded book opened on its side with three pink roses arranged in the center.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/folded-daisy.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="An intricately folded book with three large daisies arranged in the center and small purple flowers and foliage arranged throughout the folds.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/fairy-meadow.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="An intricately folded book with small pink, yellow and purple flowers arranged throughout the folds. Two large daisies sit within a fold to the right.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/catching-fire.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="A red book cover titled 'Catching Fire' standing upright with yellow and orange flowers appearing to grow from the top.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-
-                <div class="carousel-item c-item">
-                    <img src="assets/images/blue-pink.jpg" class="d-block w-100 img-fluid c-img"
-                        alt="A crystalised book with folded pages. Blue roses and orange, and yellow flowers are arranged throughout the folds.">
-                    <div class="carousel-caption">
-                        <button onclick="location.href='contact.html'" type="button"
-                            class="btn btn-dark gallery-btn">Get a
-                            Quote!</button>
-                    </div>
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+    <article id="hero-carousel" class="carousel slide carousel-fade container-fluid px-0 py-0" aria-label="article"
+        aria-live="polite">
+        <figure class="carousel-item c-item active">
+            <img src="assets/images/hero-book.jpg" class="d-block w-100 img-fluid c-img"
+                alt="Hero image. Flower sitting on a book.">
+            <figcaption class="carousel-caption">
+                <h2 class="gallery-head">Gallery</h2>
+                <hr>
+                <p class="gallery-text">Click to the next image to begin the slideshow.</p>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/yellow-rose.jpg" class="d-block w-100 img-fluid c-img"
+                alt="Crystalised folded book with yellow roses appearing to grow from the top.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/wedding.jpg" class="d-block w-100 img-fluid c-img"
+                alt="Book with folded pages arranged with small white and yellow flowers.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/sunflower.jpg" class="d-block w-100 img-fluid c-img"
+                alt="Book with folded pages and three sunflowers stacked down the center.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/record-player.jpg" class="d-block w-100 img-fluid c-img"
+                alt="Book with folded pages and pink roses arranged throughout the folds. The book is sitting atop a modern looking record player.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/pumpkin.jpg" class="d-block w-100 img-fluid c-img"
+                alt="Book with folded pages. Pumpkins and sunflowers are arranged throughout the folds.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/pink-rose.jpg" class="d-block w-100 img-fluid c-img"
+                alt="A crystallised folded book opened on its side with three pink roses arranged in the center.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/folded-daisy.jpg" class="d-block w-100 img-fluid c-img"
+                alt="An intricately folded book with three large daisies arranged in the center and small purple flowers and foliage arranged throughout the folds.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/fairy-meadow.jpg" class="d-block w-100 img-fluid c-img"
+                alt="An intricately folded book with small pink, yellow and purple flowers arranged throughout the folds. Two large daisies sit within a fold to the right.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/catching-fire.jpg" class="d-block w-100 img-fluid c-img"
+                alt="A red book cover titled 'Catching Fire' standing upright with yellow and orange flowers appearing to grow from the top.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <figure class="carousel-item c-item">
+            <img src="assets/images/blue-pink.jpg" class="d-block w-100 img-fluid c-img"
+                alt="A crystalised book with folded pages. Blue roses and orange, and yellow flowers are arranged throughout the folds.">
+            <figcaption class="carousel-caption">
+                <button onclick="location.href='contact.html'" type="button" class="btn btn-dark gallery-btn">Get a
+                    Quote!</button>
+            </figcaption>
+        </figure>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </article>
     <!-- /carousel -->
 
     <!-- footer -->
     <footer id="foot" class="row mx-0 justify-content-between">
-        <div class="col-7 my-auto py-auto">
-            <span><i role="img" aria-label="copyright folded fairy" class="fa-regular fa-copyright"></i></span>
+        <article class="col-7 my-auto py-auto">
+            <span class="col-7 my-auto py-auto"><i role="img" aria-label="copyright folded fairy"
+                    class="fa-regular fa-copyright"></i></span>
             <span class="d-none d-sm-inline" aria-hidden="true"><em> The Folded Fairy</em></span><em> 2023</em>
-        </div>
-        <div class="col-5 my-auto">
+        </article>
+        <article class="col-5 my-auto">
             <a class="foot-social py-auto px-1 px-md-3" target="_blank" href="http://www.pinterest.co.uk"
                 aria-label="pinterest"><i class="fa-brands fa-pinterest"></i></a>
             <a class="foot-social py-auto px-1 px-md-3" target="_blank" href="http://www.instagram.com"
                 aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
             <a class="foot-social py-auto px-1 px-md-3" target="_blank" href="http://www.facebook.com"
                 aria-label="facebook"><i class="fa-brands fa-facebook"></i></a>
-        </div>
+        </article>
     </footer>
     <!-- /footer -->
 
