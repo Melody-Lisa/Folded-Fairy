@@ -263,6 +263,10 @@ h3 {
     margin-right: auto;
 }
 
+.form-list {
+    list-style-type: none;
+}
+
 .text-input {
     background: transparent;
     width: 80%;
