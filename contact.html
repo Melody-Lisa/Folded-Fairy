@@ -21,22 +21,22 @@
     <!-- Header with nav
     Spans used to hide sections of nav links searched on stack overflow-->
     <header id="navbar" class="navbar row my-0 py-0">
-        <a class="col-12 col-lg-6" href="index.html">
+        <a class="col-12 col-sm-6" href="index.html">
             <h1 id="logo" class="d-inline">The Folded Fairy</h1>
         </a>
-        <nav class="col-12 col-lg-6 my-auto">
+        <nav class="col-12 col-sm-6 my-auto gx-0">
             <ul id="menu" class="menu-fix my-auto">
                 <li>
                     <a href="index.html" aria-label="home"><i class="fa-solid fa-house"></i>
-                        <span class="d-none d-lg-inline">Home</span></a>
+                        <span class="d-none d-md-inline">Home</span></a>
                 </li>
                 <li>
                     <a href="gallery.html" aria-label="gallery"><i class="fa-regular fa-images"></i>
-                        <span class="d-none d-lg-inline">Gallery</span></a>
+                        <span class="d-none d-md-inline">Gallery</span></a>
                 </li>
                 <li>
                     <a class="active" href="contact.html" aria-label="contact"><i class="fa-solid fa-phone"></i>
-                        <span class="d-none d-lg-inline">Contact</span></a>
+                        <span class="d-none d-md-inline">Contact</span></a>
                 </li>
             </ul>
         </nav>
@@ -44,7 +44,7 @@
     <!-- header with nav-->
 
     <!-- hero image and cover text -->
-    <section id="hero-outer" class="container-fluid px-0">
+    <div id="hero-outer" class="container-fluid px-0">
         <figure id="heroimage" role="img" aria-label="hero image. A flower sitting atop a worn looking book.">
         </figure>
         <article class="cover-text d-md-block">
@@ -52,62 +52,54 @@
             <hr class="cover-break d-block">
             <h2>Contact for more information</h2>
         </article>
-    </section>
+    </div>
     <!-- /hero image -->
 
     <!-- form 
     Code from form used from Love Running coding challenge, and W3Schools for text area.-->
     <article class="container-fluid" aria-label="article">
-        <section>
-            <header class="row">
-                <h3 class="col-12" id="contact-head">Send an enquiry now!</h3>
-            </header>
-            <hr>
-            <article id="contact-div" class="contact-form row mb-3">
-                <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-                    <ul class="form-list">
-                        <li>
-                            <label for="fname" class="col-12 col-sm-2">First Name:</label>
-                            <input class="text-input col-12 col-sm-10" type="text" id="fname" name="first_name"
-                                required>
-                        </li>
-                        <li>
-                            <label for="lname" class="col-12 col-sm-2">Last Name:</label>
-                            <input class="text-input col-12 col-sm-10" type="text" id="lname" name="last_name">
-                        </li>
-                        <li>
-                            <label for="email" class="col-12 col-sm-2">Email Address:</label>
-                            <input class="text-input col-12 col-sm-10" id="email" type="email" name="email_address"
-                                required>
-                        </li>
-                        <li>
-                            <label for="enquiry" class="col-12 col-sm-2">Enquiry:</label>
-                            <textarea class="text-area col-12 col-sm-10" id="enquiry" name="enquiry"
-                                aria-label="enquiry" cols="50"></textarea>
-                        </li>
-                    </ul>
-                    <button type="submit" class="btn-dark contact-btn clo-none btn col-sm-2 mx-auto">Send</button>
-                </form>
-            </article>
-        </section>
+        <h3 class="py-2" id="contact-head">Send an enquiry now!</h3>
+        <hr class="py-2">
+        <form class="contact-form row mb-3" method="POST" action="https://formdump.codeinstitute.net/">
+            <ul class="form-list">
+                <li>
+                    <label for="fname" class="col-12 col-sm-2">First Name:</label>
+                    <input class="text-input col-12 col-sm-10" type="text" id="fname" name="first_name" required>
+                </li>
+                <li>
+                    <label for="lname" class="col-12 col-sm-2">Last Name:</label>
+                    <input class="text-input col-12 col-sm-10" type="text" id="lname" name="last_name">
+                </li>
+                <li>
+                    <label for="email" class="col-12 col-sm-2">Email Address:</label>
+                    <input class="text-input col-12 col-sm-10" id="email" type="email" name="email_address" required>
+                </li>
+                <li>
+                    <label for="enquiry" class="col-12 col-sm-2">Enquiry:</label>
+                    <textarea class="text-area col-12 col-sm-10" id="enquiry" name="enquiry" aria-label="enquiry"
+                        cols="50"></textarea>
+                </li>
+            </ul>
+            <button type="submit" class="btn-dark contact-btn clo-none btn col-sm-2 mx-auto">Send</button>
+        </form>
     </article>
     <!-- /form -->
 
     <!-- footer -->
     <footer id="foot" class="row mx-0 justify-content-between">
-        <article class="col-7 my-auto py-auto">
-            <span class="col-7 my-auto py-auto"><i role="img" aria-label="copyright folded fairy"
+        <div class="col-7 my-auto py-auto"><span><i role="img" aria-label="copyright folded fairy"
                     class="fa-regular fa-copyright"></i></span>
-            <span class="d-none d-sm-inline" aria-hidden="true"><em> The Folded Fairy</em></span><em> 2023</em>
-        </article>
-        <article class="col-5 my-auto">
-            <a class="foot-social py-auto px-1 px-md-3" target="_blank" href="http://www.pinterest.co.uk"
+            <span class="d-none d-sm-inline" aria-hidden="true"><em> The Folded Fairy</em></span><em>
+                2023</em>
+        </div>
+        <div class="col-5 my-auto">
+            <a class="foot-social py-auto px-1 px-sm-3" target="_blank" href="http://www.pinterest.co.uk"
                 aria-label="pinterest"><i class="fa-brands fa-pinterest"></i></a>
-            <a class="foot-social py-auto px-1 px-md-3" target="_blank" href="http://www.instagram.com"
+            <a class="foot-social py-auto px-1 px-sm-3" target="_blank" href="http://www.instagram.com"
                 aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a class="foot-social py-auto px-1 px-md-3" target="_blank" href="http://www.facebook.com"
+            <a class="foot-social py-auto px-1 px-sm-3" target="_blank" href="http://www.facebook.com"
                 aria-label="facebook"><i class="fa-brands fa-facebook"></i></a>
-        </article>
+        </div>
     </footer>
     <!-- /footer -->
 
