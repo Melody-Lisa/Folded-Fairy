@@ -348,11 +348,17 @@ Fade in animation from hubspot blog*/
     nav {
         display: inline-flex;
         justify-content: center;
-        font-size: x-large;
         padding-left: 25px;
         padding-right: 25px;
-        font-size: xx-large;
     }
+}
+
+header a {
+    font-size: x-large;
+}
+
+#menu a {
+font-size: xx-large;
 }
 
 @media screen and (max-width: 426px) {
