@@ -75,7 +75,6 @@ footer {
     height: 80vh;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -123,9 +122,6 @@ h3 {
     font-family: "montserrat";
     text-align: center;
     text-transform: uppercase;
-    padding-top: 5px;
-    margin-top: 5px;
-    margin-bottom: 0;
     text-decoration: solid underline 2px;
     color: #eb5cad;
 }
@@ -150,7 +146,6 @@ h4 {
 .foot-social {
     text-decoration: none;
     color: #04604e;
-    font-weight: 800;
     float: right;
 }
 
@@ -211,7 +206,7 @@ h4 {
 }
 
 .gallery-caption {
-background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     color: #eb5cad;
     padding-top: 30px;
     padding-bottom: 0;
@@ -253,7 +248,6 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Contact */
-
 .contact-form {
     background-color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
@@ -339,7 +333,6 @@ Fade in animation from hubspot blog*/
 }
 
 @media screen and (max-width: 768px) {
-
     header {
         padding-top: 30px;
     }
