@@ -154,7 +154,7 @@ h3 {
 }
 
 /* Homepage */
-#reviews {
+.reviews {
     margin: 0;
     justify-content: space-between;
 }
