@@ -1,6 +1,6 @@
 # Folded-Fairy - ReadME
 
-![Website view on various screen sizes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/2654cbd6-d8fc-40f9-a307-74ba9a2864c5)
+![Website view on various screen sizes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/c1b5ffcb-7193-49c8-8b1f-9c6680494567)
 
 
 [Access the live site here.](https://melody-lisa.github.io/Folded-Fairy/)
@@ -164,7 +164,7 @@ Colour scheme images made with [Figma](https://figma.com/).
 ### Site-Wide
 
 <details><summary>Desktop Header</summary>
- <img width="905" alt="desktopnavbar" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/df0556ee-0e9b-46f6-b64f-1320ea757c32" alt="An off-white header with the site logo that sits to the left and nav links sit to the right. The active page is pink and the unactive links and logo are green">
+ <img width="905" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/df0556ee-0e9b-46f6-b64f-1320ea757c32" alt="An off-white header with the site logo that sits to the left and nav links sit to the right. The active page is pink and the unactive links and logo are green">
 </details>
 
 <details><summary>Mobile Header</summary>
@@ -192,13 +192,13 @@ On the home and contact pages the hero image fades into view over 4 seconds usin
 ### Home Page
 
 <details><summary>About Section</summary>
-<img width="698" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d1c6f677-12a7-4d8e-a0c0-d3638096db92" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The header is pink and the text within is black.">
+<img width="707" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/a43fb851-a893-4047-85f0-7eee796a19e0" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The header is pink and the text within is black.">
 </details>
 
 The about section is a simple box with letter-style content describing the business and what it's about. 
 
 <details><summary>Responsive Reviews Section</summary>
-<img src="assets/images/folded-responsive-review.png" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes. The text within is black.">
+<img width="701" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/2740f4f9-6375-4058-9821-d7554cdcb226" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes. The text within is black.">
 </details>
 
 Using bootstrap's grid styling, the reviews section has a responsive layout that changes for three different breakpoints. On smaller screens the reviews stack one on top of the other, medium screens show two reviews side by side with two on their own lines, and on larger screens the reviews are shown two on top and two on the bottom.
@@ -206,7 +206,7 @@ Using bootstrap's grid styling, the reviews section has a responsive layout that
 ### Gallery
 
 <details><summary>Gallery Full Page Carousel</summary>
-<img src="assets/images/folded-gallery.png" alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with off-white text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
+<img width="704" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/928f37e8-ebd8-45cf-80aa-c4d827825837 alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with off-white text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
 </details>
 
 The carousel originally had an autoplay feature that required user interaction before it starts but, after testing with a screen reader, this feature was removed. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
@@ -214,11 +214,11 @@ The carousel originally had an autoplay feature that required user interaction b
 ### Contact
 
 <details><summary>Responsive Contact Form</summary>
-<img src="assets/images/folded-contact.png" alt="Multiple screen size views of the contact page. The background is green and the content sits in an off-white box. The text within is black, input fields have a green border and the submit button is green.">
+<img width="708" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/25932287-4813-40d2-b21c-a4ac9a4e113c" alt="Multiple screen size views of the contact page. The background is green and the content sits in an off-white box. The text within is black, input fields have a green border and the submit button is green.">
 </details>
 
 <details><summary>FormDump</summary>
-<img width="611" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/4221ef19-605d-491b-98b9-37a7d4f7f294" alt="The code institute formdump page indicating the form has worked.>
+<img width="611" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/96aa603e-b5ba-42f8-a7fc-8470db48ac52" alt="The code institute formdump page indicating the form has worked.">
 </details>
 
 The contact form has a responsive design which pushes the input labels above the input field on small screen devices. If you click the submit button at this time the code institute formdump will appear indicating that the form has worked.
