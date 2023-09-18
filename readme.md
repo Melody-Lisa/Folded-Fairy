@@ -116,6 +116,8 @@ As the site is starting out quite simply, the navigation route will be linear an
 
 All wireframes have been created with [Figma](https://figma.com/).
 
+The wireframes featured here are the initial design idea for the webpage. Some styling elements have been changed since testing to improve accessibility as per suggestions through lighthouse as well as positioning changes in the reviews section after viewing the live site.
+
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
 -----
@@ -162,21 +164,21 @@ Colour scheme images made with [Figma](https://figma.com/).
 ### Site-Wide
 
 <details><summary>Desktop Header</summary>
-<img src="assets/images/folded-header.png" alt="An off-white header with the site logo on the left and nav links on the right. The logo and active page are pink, and the unactive links are black">
+ <img width="905" alt="desktopnavbar" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/df0556ee-0e9b-46f6-b64f-1320ea757c32" alt="An off-white header with the site logo that sits to the left and nav links sit to the right. The active page is pink and the unactive links and logo are green">
 </details>
 
 <details><summary>Mobile Header</summary>
-<img src="assets/images/folded-header-sm.png" alt="An off-white header with the site logo and nav links sit one above the other in the center. The logo and active page are pink and the unactive links are black">
+ <img width="156" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/a01b4c3b-3a7d-4742-8d5b-182a699e4887" alt="An off-white header with the site logo and nav link icons sit one above the other in the center. The active page is pink and the unactive links and logo are green">
 </details>
 
 On larger screens the header's logo title sits at the left of the navbar and the navigation links sit on the right as HOME | GALLERY | CONTACT. On smaller screens the logo and links are pushed to the middle of the screen with the logo on top and icons representing each of the links sitting below.
 
 <details><summary>Desktop Footer</summary>
-<img src="assets/images/folded-footer.png" alt="An off-white footer with copyright information to the left and socials icons to the right. All content within the footer is pink.">
+<img width="908"src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/e43f0d28-eee3-4b84-a4a9-f5e0a6c043dc" alt="An off-white footer with copyright information to the left and socials icons to the right. All content within the footer is green with the social icons turning pink on hover.">
 </details>
 
 <details><summary>Mobile Footer</summary>
-<img src="assets/images/folded-footer-sm.png" alt="An off-white footer with condensed copyright information to the left and socials icons to the right. All content within the footer is pink.">
+<img width="146" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/8569cc27-c869-4149-bb61-10c20c759a73" alt="An off-white footer with condensed copyright information to the left and socials icons to the right. All content within the footer is green.">
 </details>
 
 On larger screens the copyright information shows the copyright icon followed by "Folded Fairy 2023" to the left of the footer bar. On the right of the footer there are three socials icons for FACEBOOK | INSTRGRAM | PINTEREST. This layout remains relatively similar on smaller screens with only "2023" shown after the copyright symbol.
@@ -190,7 +192,7 @@ On the home and contact pages the hero image fades into view over 4 seconds usin
 ### Home Page
 
 <details><summary>About Section</summary>
-<img src="assets/images/folded-about.png" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The text within is black.">
+<img width="698" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d1c6f677-12a7-4d8e-a0c0-d3638096db92" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The header is pink and the text within is black.">
 </details>
 
 The about section is a simple box with letter-style content describing the business and what it's about. 
