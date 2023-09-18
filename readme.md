@@ -218,7 +218,7 @@ The carousel originally had an autoplay feature that required user interaction b
 </details>
 
 <details><summary>FormDump</summary>
-
+<img width="611" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/4221ef19-605d-491b-98b9-37a7d4f7f294" alt="The code institute formdump page indicating the form has worked.>
 </details>
 
 The contact form has a responsive design which pushes the input labels above the input field on small screen devices. If you click the submit button at this time the code institute formdump will appear indicating that the form has worked.
@@ -229,7 +229,7 @@ The contact form has a responsive design which pushes the input labels above the
 
 ## Future Implementations
 
-1. After testing through lighthouse in the chrome developer tools, the next version of this website should focus on improving the performance, accessibility and SEO of each page by following suggestions highlighted through these tests.
+1. After testing through lighthouse in the chrome developer tools, the next version of this website should focus on improving the performance highlighted through these tests.
 
 2. The next step in the creation of this website is to create functionality to the contact form. Due to the nature of this project, the html and css elements have been created with minimal javascript and back-end functionality.
 
