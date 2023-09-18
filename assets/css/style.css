@@ -347,8 +347,8 @@ Fade in animation from hubspot blog*/
     nav {
         display: inline-flex;
         align-content: center;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
