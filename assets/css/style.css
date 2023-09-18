@@ -38,7 +38,7 @@ footer {
     color: #eb5cad;
 }
 
-.menu-fix {
+#menu {
     float: right;
 }
 
@@ -53,7 +53,7 @@ footer {
 #menu a {
     text-decoration: none;
     color: #04604e;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #menu a:hover {
@@ -347,8 +347,6 @@ Fade in animation from hubspot blog*/
     nav {
         display: inline-flex;
         align-content: center;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 }
 
