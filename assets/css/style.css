@@ -272,8 +272,9 @@ h4 {
     background: transparent;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #04604e;
-    border-radius: 15px;
+    border: 1px solid rgb(4, 96, 78);
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 .text-area {
@@ -281,7 +282,8 @@ h4 {
     height: 75px;
     margin: 5px 0 20px 0;
     border: 1px solid #04604e;
-    border-radius: 15px;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 /* Keyframe 
