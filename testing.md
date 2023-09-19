@@ -90,6 +90,7 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 | Mobile | 73 | 96 | 100 | 100 |
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
+
 ------
 
 ## Manual Testing
@@ -174,6 +175,7 @@ Additional testing has been carried out by friends and colleagues including on a
 | Aria labels on links | Provides descriptions of links across the site | Browsed site on desktop and mobile with screen readers active | Screen readers read descriptions of links | __Pass__ |
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
+
 ------
 
 ## Bugs
@@ -191,4 +193,5 @@ Additional testing has been carried out by friends and colleagues including on a
 There are currently no known bugs in this version of the site.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
+
 -----
