@@ -164,4 +164,12 @@ Additional testing has been carried out by friends and colleagues including on a
 
 ### Solved Bugs
 
+| # | Issue | Details | What was done | Fixed? |
+| --- | --- | --- | --- | --- |
+| 1 | Hero Image display issue | When making changes to site pages and assets the hero image would periodically stop displaying on github, despite appearing fine on codeanywhere | Made changes to hero image filepath | __Currently__ |
+| 2 | Carousel Autoplay | The carousel on the gallery page originally had an autoplay feature that was removed. The carousel continued to autoplay despite bootstrap classes being removed | Declare data-bs-interval and set to "false" | __Yes__ |
+| 3 | Navigation Links display issue | When viewing responsive design through [ui.dev](https://ui.dev/amiresponsive) the tablet view showed navigation links were not in line, despite this not showing up at any view width on developer tools | Reduced styling on link text including padding and letter spacing | __Yes__ |
+
 ### Known Bugs
+
+There are currently no known bugs in this version of the site.
