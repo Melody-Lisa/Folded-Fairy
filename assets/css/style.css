@@ -337,16 +337,16 @@ Fade in animation from hubspot blog*/
 }
 
 @media screen and (max-width: 767px) {
-    #logo, #menu {
-        padding-top: 0;
-        line-height: 30px;
-        margin: auto;
-    }
-
     header a,
     nav {
         display: inline-flex;
         align-content: center;
+    }
+            
+    #logo, #menu {
+        padding-top: 0;
+        line-height: 30px;
+        margin: auto;
     }
 }
 
