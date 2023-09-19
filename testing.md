@@ -2,6 +2,20 @@
 
 -----
 
+## Contents
+
+* [Automated Testing](#automated-testing)
+    * [W3C Validator](#w3c-validator)
+    * [Lighthouse](#lighthouse)
+* [Manual Testing](#manual-testing)
+    * [Testing User Stories](#testing-user-stories)
+    * [Full Testing](#full-testing)
+* [Bugs](#bugs)
+    * [Solved Bugs](#solved-bugs)
+    * [Known Bugs](#known-bugs)
+
+-----
+
 ## Automated Testing
 
 This automated testing section contains all testing that has been run through a program to produce validation and performance insights.
