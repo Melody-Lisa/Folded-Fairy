@@ -374,5 +374,10 @@ Please see [testing.md](testing.md) for all testing elements of this site.
 
 ### Acknowledgements
 
+* Jubril Akolade - Mentor: For the encouragement and providing great insights into building my project.
+* [Iris Smok](https://github.com/Iris-Smok) - Cohort Facilitator: For hosting informative standup's and providing a great class atmosphere.
+* Class June 2023: Everyone in my class channel on slack who is involved with the stand ups and group chat for contributing to the great atmosphere and supportive environment.
+* The wider slack community: For quick responses to various issues and questions I had at all stages of the project.
+* Friends and Family: For helping me to test my site on various devices and provide feedback.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
