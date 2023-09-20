@@ -184,7 +184,7 @@ On larger screens the header's logo title sits at the left of the navbar and the
 On larger screens the copyright information shows the copyright icon followed by "Folded Fairy 2023" to the left of the footer bar. On the right of the footer there are three socials icons for FACEBOOK | INSTRGRAM | PINTEREST. This layout remains relatively similar on smaller screens with only the copyright symbol appearing on the left.
 
 <details><summary>Hero Image Fade-in Animation</summary>
-<img src="assets/images/folded-fadein.png" alt="A screenshot of the hero image - a flower sitting on top of a book. The screenshot shows the image in the process of fading into view.">
+<img width="902" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/fb7894e9-3648-4cae-ac80-eaffd4200e8e" alt="A screenshot of the hero image - a flower sitting on top of a book. The screenshot shows the image in the process of fading into view.">
 </details>
 
 On the home and contact pages the hero image fades into view over 4 seconds using a keyframes animation. This has also been applied to the gallery carousel as the page loads.
