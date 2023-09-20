@@ -1,6 +1,6 @@
 # Folded-Fairy - ReadME
 
-![Website view on various screen sizes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/b60dd627-1bde-4716-afdf-e3fd13b1c0e2)
+![Website view on various screen sizes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/ec7f5c83-eefa-4a16-b74f-079ad298b82c)
 
 
 [Access the live site here.](https://melody-lisa.github.io/Folded-Fairy/)
@@ -178,10 +178,10 @@ On larger screens the header's logo title sits at the left of the navbar and the
 </details>
 
 <details><summary>Mobile Footer</summary>
-<img width="146" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/8569cc27-c869-4149-bb61-10c20c759a73" alt="An off-white footer with condensed copyright information to the left and socials icons to the right. All content within the footer is green.">
+<img width="248" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/fc520a6f-3b51-4138-acb1-7c1c2da0f8fc" alt="An off-white footer with condensed copyright information to the left and socials icons to the right. All content within the footer is green.">
 </details>
 
-On larger screens the copyright information shows the copyright icon followed by "Folded Fairy 2023" to the left of the footer bar. On the right of the footer there are three socials icons for FACEBOOK | INSTRGRAM | PINTEREST. This layout remains relatively similar on smaller screens with only "2023" shown after the copyright symbol.
+On larger screens the copyright information shows the copyright icon followed by "Folded Fairy 2023" to the left of the footer bar. On the right of the footer there are three socials icons for FACEBOOK | INSTRGRAM | PINTEREST. This layout remains relatively similar on smaller screens with only the copyright symbol appearing on the left.
 
 <details><summary>Hero Image Fade-in Animation</summary>
 <img src="assets/images/folded-fadein.png" alt="A screenshot of the hero image - a flower sitting on top of a book. The screenshot shows the image in the process of fading into view.">
@@ -192,21 +192,21 @@ On the home and contact pages the hero image fades into view over 4 seconds usin
 ### Home Page
 
 <details><summary>About Section</summary>
-<img width="703" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/26f91f41-2ff3-4aae-8b69-ee17552c7c46" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The header is pink and the text within is black.">
+<img width="698" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/af804288-c7a8-4b25-8f0b-400c9dd28cff" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The header is pink and the text within is black.">
 </details>
 
 The about section is a simple box with letter-style content describing the business and what it's about. 
 
 <details><summary>Responsive Reviews Section</summary>
-<img width="701" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/27d9a8ca-6adb-4a63-b7d8-02f21df480d2" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes. The text within is black.">
+<img width="703" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/f6f2bf51-7b7b-4311-8ac8-740ce0eda172" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes. The text within is black.">
 </details>
 
-Using bootstrap's grid styling, the reviews section has a responsive layout that changes for three different breakpoints. On smaller screens the reviews stack one on top of the other, medium screens show two reviews side by side with two on their own lines, and on larger screens the reviews are shown two on top and two on the bottom.
+Using bootstrap's grid styling, the reviews section has a responsive layout that changes for three different breakpoints. On smaller screens the reviews stack one on top of the other, medium screens show two reviews side by side with two on their own lines, and on larger screens the reviews are shown two on top and two on the bottom with space between.
 
 ### Gallery
 
 <details><summary>Gallery Full Page Carousel</summary>
-<img width="695" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/5083defe-e937-4626-81dc-06259e5ad221 alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with pink text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
+<img width="703" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/23690a21-3356-472a-b9bc-a66b6e7394e1" alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with pink text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
 </details>
 
 The carousel originally had an autoplay feature that required user interaction before it started but, after testing with a screen reader, this feature was removed. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
@@ -214,7 +214,7 @@ The carousel originally had an autoplay feature that required user interaction b
 ### Contact
 
 <details><summary>Responsive Contact Form</summary>
-<img width="708" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/25932287-4813-40d2-b21c-a4ac9a4e113c" alt="Multiple screen size views of the contact page. The background is green and the content sits in an off-white box. The text within is black, input fields have a green border and the submit button is green.">
+<img width="701" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/dfb8f446-e833-40d8-952a-b43486578414" alt="Multiple screen size views of the contact page. The background is green and the content sits in an off-white box. The text within is black, input fields have a green border and the submit button is green with hover effect.">
 </details>
 
 <details><summary>FormDump</summary>
