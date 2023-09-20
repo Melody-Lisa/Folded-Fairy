@@ -32,6 +32,7 @@ footer {
     float: left;
     margin-left: 0px;
     padding-top: 10px;
+    text-shadow: 0px 0px 1px #000;
 }
 
 #logo:hover {
@@ -54,6 +55,7 @@ footer {
     text-decoration: none;
     color: #04604e;
     font-weight: 600;
+    text-shadow: 0px 0px 1px #000;
 }
 
 #menu a:hover {
