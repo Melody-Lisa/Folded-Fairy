@@ -54,17 +54,40 @@ footer {
 #menu a {
     text-decoration: none;
     color: #04604e;
-    font-weight: 600;
+    font-weight: 500;
     text-shadow: 0px 0px 1px #000;
 }
 
 #menu a:hover {
-    text-decoration: underline solid;
     color: #eb5cad;
 }
 
+/* Hover underline from 30 seconds of code */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #eb5cad;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #eb5cad;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 #menu .active {
-    text-decoration: underline solid;
     color: #eb5cad;
 }
 
@@ -127,6 +150,7 @@ h3 {
     border-bottom: solid 1px;
     color: antiquewhite;
     text-shadow: 1px 1px 2px #000;
+    box-shadow: 0px 1px 0px 0px #000;
 }
 
 h4 {
