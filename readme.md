@@ -192,13 +192,13 @@ On the home and contact pages the hero image fades into view over 4 seconds usin
 ### Home Page
 
 <details><summary>About Section</summary>
-<img width="707" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/a43fb851-a893-4047-85f0-7eee796a19e0" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The header is pink and the text within is black.">
+<img width="703" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/26f91f41-2ff3-4aae-8b69-ee17552c7c46" alt="Multiple screen size views of the about section. The background is green and the content sits in an off-white box. The header is pink and the text within is black.">
 </details>
 
 The about section is a simple box with letter-style content describing the business and what it's about. 
 
 <details><summary>Responsive Reviews Section</summary>
-<img width="701" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/2740f4f9-6375-4058-9821-d7554cdcb226" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes. The text within is black.">
+<img width="701" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/27d9a8ca-6adb-4a63-b7d8-02f21df480d2" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes. The text within is black.">
 </details>
 
 Using bootstrap's grid styling, the reviews section has a responsive layout that changes for three different breakpoints. On smaller screens the reviews stack one on top of the other, medium screens show two reviews side by side with two on their own lines, and on larger screens the reviews are shown two on top and two on the bottom.
@@ -206,10 +206,10 @@ Using bootstrap's grid styling, the reviews section has a responsive layout that
 ### Gallery
 
 <details><summary>Gallery Full Page Carousel</summary>
-<img width="704" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/928f37e8-ebd8-45cf-80aa-c4d827825837 alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with off-white text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
+<img width="695" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/5083defe-e937-4626-81dc-06259e5ad221 alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with pink text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
 </details>
 
-The carousel originally had an autoplay feature that required user interaction before it starts but, after testing with a screen reader, this feature was removed. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
+The carousel originally had an autoplay feature that required user interaction before it started but, after testing with a screen reader, this feature was removed. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
 
 ### Contact
 
