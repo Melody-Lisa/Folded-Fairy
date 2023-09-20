@@ -1,6 +1,6 @@
 # Folded-Fairy - ReadME
 
-![Website view on various screen sizes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/c1b5ffcb-7193-49c8-8b1f-9c6680494567)
+![Website view on various screen sizes](https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/b60dd627-1bde-4716-afdf-e3fd13b1c0e2)
 
 
 [Access the live site here.](https://melody-lisa.github.io/Folded-Fairy/)
@@ -164,11 +164,11 @@ Colour scheme images made with [Figma](https://figma.com/).
 ### Site-Wide
 
 <details><summary>Desktop Header</summary>
- <img width="905" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/df0556ee-0e9b-46f6-b64f-1320ea757c32" alt="An off-white header with the site logo that sits to the left and nav links sit to the right. The active page is pink and the unactive links and logo are green">
+ <img width="899" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/0b0ebc23-0a74-4d11-9ad4-2a77f4369363" alt="An off-white header with the site logo that sits to the left and nav links sit to the right. The active page is pink and the unactive links and logo are green">
 </details>
 
 <details><summary>Mobile Header</summary>
- <img width="156" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/a01b4c3b-3a7d-4742-8d5b-182a699e4887" alt="An off-white header with the site logo and nav link icons sit one above the other in the center. The active page is pink and the unactive links and logo are green">
+ <img width="193" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/6eaf1461-f2fe-46dc-a7cc-bf577d992ff4" alt="An off-white header with the site logo and nav link icons sit one above the other in the center. The active page is pink and the unactive links and logo are green">
 </details>
 
 On larger screens the header's logo title sits at the left of the navbar and the navigation links sit on the right as HOME | GALLERY | CONTACT. On smaller screens the logo and links are pushed to the middle of the screen with the logo on top and icons representing each of the links sitting below.
@@ -343,6 +343,8 @@ Please see [testing.md](testing.md) for all testing elements of this site.
 
 ### Code Used
 
+* [30 Seconds of Code](https://www.30secondsofcode.org/css/s/hover-underline-animation/): Underline animations on the navigation links.
+
 * [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/): Insert the carousel on the gallery page.
 
 * [ByteGrad](https://www.youtube.com/watch?v=zVjAA6UxvtU) - Youtube: Insert the carousel on the gallery page.
@@ -375,9 +377,13 @@ Please see [testing.md](testing.md) for all testing elements of this site.
 ### Acknowledgements
 
 * Jubril Akolade - Mentor: For the encouragement and providing great insights into building my project.
+
 * [Iris Smok](https://github.com/Iris-Smok) - Cohort Facilitator: For hosting informative standup's and providing a great class atmosphere.
+ 
 * Class June 2023: Everyone in my class channel on slack who is involved with the stand ups and group chat for contributing to the great atmosphere and supportive environment.
+ 
 * The wider slack community: For quick responses to various issues and questions I had at all stages of the project.
+ 
 * Friends and Family: For helping me to test my site on various devices and provide feedback.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
