@@ -173,6 +173,8 @@ Colour scheme images made with [Figma](https://figma.com/).
 
 On larger screens the header's logo title sits at the left of the navbar and the navigation links sit on the right as HOME | GALLERY | CONTACT. On smaller screens the logo and links are pushed to the middle of the screen with the logo on top and icons representing each of the links sitting below.
 
+The navigation links on each page have an animated underline feature that expands from the left when hovered over and contracts to the right when the focus is removed.
+
 <details><summary>Desktop Footer</summary>
 <img width="908"src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/e43f0d28-eee3-4b84-a4a9-f5e0a6c043dc" alt="An off-white footer with copyright information to the left and socials icons to the right. All content within the footer is green with the social icons turning pink on hover.">
 </details>
