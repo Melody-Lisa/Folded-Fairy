@@ -237,6 +237,20 @@ h4 {
 }
 
 /*.......................................Gallery */
+
+.alert {
+    background-color: rgb(235, 92, 173, 0.7);
+    border: none;
+    position: absolute;
+    margin-top: 65px;
+    width: 100%;
+    z-index: 999;
+}
+
+.close {
+    float: right;
+}
+
 #hero-carousel {
     animation-name: fadeIn;
     animation-duration: 4s;
@@ -256,14 +270,16 @@ h4 {
 }
 
 .gallery-caption {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #eb5cad;
-    height: fit-content;
+    height: auto;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 30px;
-    padding-bottom: 0;
-    border-radius: 10px;
-    clear: both;
-    margin-bottom: 8%;
+    border-radius: 50px;
 }
 
 .gallery-head {
@@ -394,6 +410,12 @@ Fade in animation from hubspot blog*/
     .blockquote {
         height: fit-content;
     }
+}
+
+@media screen and (max-width: 576px) {
+.alert {
+    margin-top: 95px;
+}
 }
 
 @media screen and (max-width: 285px) {
