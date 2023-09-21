@@ -159,7 +159,7 @@ h4 {
 }
 
 .box-shade {
-    box-shadow: 1px 1px 10px 0px #000;
+    box-shadow: 1px 1px 6px 0px #000;
 }
 
 #foot {
@@ -181,6 +181,22 @@ h4 {
 
 .foot-social:hover {
     color: #eb5cad;
+}
+
+/*.......................................Box shadow code from W3schools*/
+.btn-dark {
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    color: black;
+    background-color: #04604e;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+}
+
+.btn-dark:hover {
+    color: black;
+    background-color: rgb(235, 92, 173);
+    box-shadow: 0px 0px 5px 2px rgb(75, 30, 56) inset;
 }
 
 /*.......................................Homepage */
@@ -259,22 +275,6 @@ h4 {
 .gallery-text {
     font-family: 'Montserrat';
     letter-spacing: 1px;
-}
-
-/*.......................................Box shadow code from W3schools*/
-.btn-dark {
-    text-transform: capitalize;
-    font-family: 'Montserrat';
-    color: black;
-    background-color: #04604e;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.4);
-    border: 1px solid black;
-}
-
-.btn-dark:hover {
-    color: black;
-    background-color: rgb(235, 92, 173);
-    box-shadow: 0px 0px 5px 2px rgb(75, 30, 56) inset;
 }
 
 .gallery-text,
