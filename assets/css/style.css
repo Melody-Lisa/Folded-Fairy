@@ -222,19 +222,15 @@ h4 {
     list-style: none;
 }
 
-.blockquote {
-    height: 240px;
-    background-color: antiquewhite;
-    margin-bottom: 10px;
-    padding-top: 20px;
-    border-radius: 10px;
-    clear: both;
-    text-align: center;
+.card-body {
+    background-color: red;
 }
 
-.blockquote em {
-    font-weight: 500;
+.card-img {
+    border-radius: 25px;
+    height: 100px;
 }
+
 
 /*.......................................Gallery */
 
