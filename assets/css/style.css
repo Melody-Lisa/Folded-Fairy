@@ -200,11 +200,6 @@ h4 {
 }
 
 /*.......................................Homepage */
-.reviews {
-    margin: 0;
-    justify-content: space-between;
-}
-
 .about-text {
     font-family: inherit;
     text-align: start;
@@ -222,13 +217,15 @@ h4 {
     list-style: none;
 }
 
-.card-body {
-    background-color: red;
+.card-body,
+.card-footer,
+.card {
+    background-color: antiquewhite;
 }
 
 .card-img {
-    border-radius: 25px;
-    height: 100px;
+    height: 220px;
+    object-fit: cover;
 }
 
 
@@ -400,12 +397,7 @@ Fade in animation from hubspot blog*/
         padding-top: 0;
         line-height: 30px;
         margin: auto;
-    }
-
-    /*....................................... MQ Home */
-    .blockquote {
-        height: fit-content;
-    }
+    } 
 }
 
 @media screen and (max-width: 576px) {
