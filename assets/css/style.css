@@ -206,11 +206,7 @@ h4 {
 }
 
 .about-text p {
-    text-indent: 10px;
-}
-
-.review-list {
-    list-style: none;
+    text-indent: 15px;
 }
 
 .card-body,
@@ -261,11 +257,9 @@ h4 {
     color: #eb5cad;
     height: auto;
     width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-    padding: 10px 50px;
-    border-radius: 50px;
+    margin: 0 auto 2% auto;
+    padding: 10px 30px;
+    border-radius: 30px;
 }
 
 .gallery-head {
@@ -284,7 +278,6 @@ h4 {
     background-color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
-    width: 100%;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -308,15 +301,45 @@ h4 {
 }
 
 .text-input {
-    height: 25px;
+    height: 30px;
 }
 
 .text-area {
-    height: 75px;
+    height: 80px;
 }
 
 .form-label {
     float: left;
+}
+
+/*.......................................Media Queries*/
+@media screen and (max-width: 767px) {
+
+    header a,
+    nav {
+        display: inline-flex;
+        align-content: center;
+    }
+
+    #logo,
+    #menu {
+        padding-top: 0;
+        line-height: 30px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .alert {
+        margin-top: 95px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    header a {
+        font-size: small;
+    }
+}
 }
 
 /*.......................................Keyframe 
@@ -368,42 +391,5 @@ Fade in animation from hubspot blog*/
 
     100% {
         opacity: 1;
-    }
-}
-
-/*.......................................Media Queries*/
-@media screen and (max-width: 767px) {
-    header a,
-    nav {
-        display: inline-flex;
-        align-content: center;
-    }
-
-    #logo,
-    #menu {
-        padding-top: 0;
-        line-height: 30px;
-        margin: auto;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .alert {
-        margin-top: 95px;
-    }
-}
-
-@media screen and (max-width: 285px) {
-    header a {
-        font-size: small;
-    }
-
-    nav {
-        padding: 0;
-    }
-
-    /*....................................... MQ Home */
-    .review-size {
-        font-size: medium;
     }
 }
