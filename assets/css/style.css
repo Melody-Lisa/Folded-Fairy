@@ -237,11 +237,10 @@ h4 {
     animation-name: fadeIn;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    height: 100vh;
+    height: 100%;
 }
 
 .c-item {
-    margin-top: 25px;
     height: 100%;
 }
 
@@ -256,7 +255,7 @@ h4 {
     color: #eb5cad;
     height: auto;
     width: fit-content;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 50px auto;
     padding: 10px 30px;
     border-radius: 30px;
 }
