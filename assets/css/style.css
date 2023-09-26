@@ -268,16 +268,6 @@ h4 {
     bottom: 10%;
 }
 
-.faded-caption {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(235, 92, 173, 0.1);
-}
-
-.faded-caption:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #eb5cad;
-}
-
 .gallery-head {
     font-family: "Luxurious Script", cursive;
     letter-spacing: 4px;
