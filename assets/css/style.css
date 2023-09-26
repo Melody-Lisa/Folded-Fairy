@@ -100,7 +100,6 @@ footer {
     width: 100%;
     overflow: hidden;
     position: relative;
-
 }
 
 #heroimage {
@@ -225,9 +224,10 @@ h4 {
     background-color: rgb(235, 92, 173, 0.7);
     border: none;
     position: absolute;
-    margin-top: 65px;
+    top: -70px;
+    padding-bottom: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 9;
 }
 
 .close {
@@ -238,16 +238,16 @@ h4 {
     animation-name: fadeIn;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    height: 95vh;
+    bottom: -40px;
 }
 
 .c-item {
-    margin-top: 25px;
-    height: 95vh;
+    margin-top: 0;
+    bottom: -40px;
+
 }
 
 .c-img {
-    height: 100%;
     object-fit: cover;
     filter: brightness(0.7)
 }
