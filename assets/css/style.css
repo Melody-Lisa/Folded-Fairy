@@ -255,7 +255,7 @@ h4 {
     color: #eb5cad;
     height: auto;
     width: fit-content;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 40px auto;
     padding: 10px 30px;
     border-radius: 30px;
 }
@@ -331,62 +331,66 @@ h4 {
     .alert {
         margin-top: 95px;
     }
-}
 
-@media screen and (max-width: 285px) {
-    header a {
-        font-size: small;
+    .gallery-caption {
+        margin: 0 auto 80px auto;
     }
 }
 
-/*.......................................Keyframe 
+    @media screen and (max-width: 285px) {
+        header a {
+            font-size: small;
+        }
+    }
+
+    /*.......................................Keyframe 
 Fade in animation from hubspot blog*/
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 
-    100% {
-        opacity: 1;
-    }
-}
+    @-moz-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
 
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
+        100% {
+            opacity: 1;
+        }
     }
 
-    100% {
-        opacity: 1;
-    }
-}
+    @-webkit-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
 
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity: 0;
+        100% {
+            opacity: 1;
+        }
     }
 
-    100% {
-        opacity: 1;
+    @-o-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
-}
+
+    @-ms-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
