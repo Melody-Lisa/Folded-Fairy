@@ -200,18 +200,18 @@ On the home and contact pages the hero image fades into view over 4 seconds usin
 The about section is a simple box with letter-style content describing the business and what it's about. 
 
 <details><summary>Responsive Reviews Section</summary>
-<img width="703" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/f6f2bf51-7b7b-4311-8ac8-740ce0eda172" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes. The text within is black.">
+<img width="703" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/b8a5056a-d68e-47df-aca3-0b6445a7e221" alt="Multiple screen size views of the reviews section. The background is green and the content sits in multiple off-white boxes with images sitting above the text. The text within is black.">
 </details>
 
-Using bootstrap's grid styling, the reviews section has a responsive layout that changes for three different breakpoints. On smaller screens the reviews stack one on top of the other, medium screens show two reviews side by side with two on their own lines, and on larger screens the reviews are shown two on top and two on the bottom with space between.
+Using bootstrap's grid styling and card classes, the reviews section has a responsive layout that changes for three different breakpoints. On smaller screens the reviews stack one on top of the other, medium screens show two reviews side by side with the other two stacked below, and on larger screens the reviews are shown all on the same row. This differs slightly to my original wireframe due to the nature of the bootstrap classes I used to improve the overall look of the cards themselves.
 
 ### Gallery
 
 <details><summary>Gallery Full Page Carousel</summary>
-<img width="703" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/23690a21-3356-472a-b9bc-a66b6e7394e1" alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. The first page shows the hero image from other pages with pink text prompting the user to click the arrows to the sides of the image. The rest of the slideshow images contain a green button prompting users to the contact page.">
+<img width="703" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/e3187129-e60b-4edd-a47e-068a7193547f" alt="Multiple screen size views of the gallery page. The carousel sits between the header and footer without scrolling. There is a pink alert at the top of the page, below the header, prompring users to click to the contact page. The first page shows the hero image from other pages. Pink text prompting the user to click the arrows to the sides of the image along with a green button prompting users to the contact page sit at the bottom of each page.">
 </details>
 
-The carousel originally had an autoplay feature that required user interaction before it started but, after testing with a screen reader, this feature was removed. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling.
+The carousel originally had an autoplay feature that required user interaction before it started but, after testing with a screen reader, this feature was removed. The first image that is shown as the page loads is the same as the hero image across the rest of the site for consistency. The positioning of this image is slightly different to the hero image on other pages, however, as the carousel is designed to fit the page without scrolling. There is an alert at the top of the page, prompting the user to get in contact. This alert can be dismissed by clicking the cross on the right hand side.
 
 ### Contact
 
@@ -236,6 +236,10 @@ The contact form has a responsive design which pushes the input labels above the
 2. The next step in the creation of this website is to create functionality to the contact form. Due to the nature of this project, the html and css elements have been created with minimal javascript and back-end functionality.
 
 3. The client has social media presence on platforms that are not featured on this version of the site. Due to their regular engagement with social media it may be beneficial to dedicate a page to featured videos and posts from various platforms.
+
+4. I had ideas to implement a horizontal scrolling feature for the reviews section to save on vertical scrolling, especially for mobile views, however I was not able to achieve this within the timeframe of this project. This is an option to look into in future versions of the site.
+
+5. I believe the look of the gallery page could be improved, especially with how tempremental the styling for this has been during the development process. This was not achievable within the timeframe of the project, but is another option to look into in future versions of the site.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -272,7 +276,7 @@ The main font is plain and easy to read. The cursive font used for the main head
 
 ### Frameworks, Libraries, and Programs Used
 
-* [Bootstrap V5.3](https://getbootstrap.com/) - The framework for the website. Code for the navigation bar, carousel and modal were used and modified. Additional CSS styling was also implemented in style.css.
+* [Bootstrap V5.3](https://getbootstrap.com/) - The framework for the website. Code for the navigation bar, reviews, carousel and alert were used and modified. Additional CSS styling was also implemented in style.css.
 
 * [Figma](https://figma.com/) - For wireframes and other graphics in readme.
 
@@ -303,7 +307,7 @@ The main font is plain and easy to read. The cursive font used for the main head
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to [Github](https://github.com/).
-2. Find the repository for this project, [Folded-Fairy](https://github.com/Melody-Lisa/Folded-Fairy/)..
+2. Find the repository for this project, [Folded-Fairy](https://github.com/Melody-Lisa/Folded-Fairy/).
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -347,7 +351,11 @@ Please see [testing.md](testing.md) for all testing elements of this site.
 
 * [30 Seconds of Code](https://www.30secondsofcode.org/css/s/hover-underline-animation/): Underline animations on the navigation links.
 
-* [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/): Insert the carousel on the gallery page.
+* [Bootstrap](https://getbootstrap.com/docs/5.3/components/card/): Insert the reviews cards on the home page.
+
+* [Bootstrap](https://getbootstrap.com/docs/5.3/components/alerts/): Insert the alert on the gallery page.
+
+* * [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/): Insert the carousel on the gallery page.
 
 * [ByteGrad](https://www.youtube.com/watch?v=zVjAA6UxvtU) - Youtube: Insert the carousel on the gallery page.
 
