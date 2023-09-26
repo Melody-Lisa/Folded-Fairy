@@ -224,7 +224,7 @@ h4 {
     background-color: rgb(235, 92, 173, 0.7);
     border: none;
     position: absolute;
-    margin-top: 65px;
+    margin-top: 70px;
     width: 100%;
     z-index: 999;
 }
@@ -237,11 +237,12 @@ h4 {
     animation-name: fadeIn;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    height: 95vh;
 }
 
 .c-item {
     margin-top: 25px;
-    height: 95vh;
+    height: 100%;
 }
 
 .c-img {
