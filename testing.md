@@ -25,27 +25,27 @@ This automated testing section contains all testing that has been run through a 
 [W3C](https://validator.w3.org/#validate_by_input) was used to validate all HTML and CSS for the site via direct input. Each individual page was tested and final reconfiguration was carried out to ensure all results produced no errors.
 
 <details><summary>Home Page</summary>
-<img width="888" alt="w3vaidatorhome" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/c426f15d-02cb-4d09-bb85-365add1167b0">
+<img width="888" alt="w3 vaidator home" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/c426f15d-02cb-4d09-bb85-365add1167b0">
 </details>
 <img width="889" alt="No errors" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/174478a9-9d01-4e3a-9a87-03ad93a14dea">
 
 
 <details><summary>Gallery</summary>
-<img width="886" alt="w3validatorgallery" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/cc39b381-6ea6-4567-be9e-bd88dd5b950d">
+<img width="886" alt="w3 validator gallery" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/cc39b381-6ea6-4567-be9e-bd88dd5b950d">
 </details>
 <img width="889" alt="No errors" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/174478a9-9d01-4e3a-9a87-03ad93a14dea">
 
 
 <details><summary>Contact</summary>
-<img width="890" alt="w3validatorcontact" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d5393b82-bf84-4108-baad-4e596c0be2e0">
+<img width="890" alt="w3 validator contact" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d5393b82-bf84-4108-baad-4e596c0be2e0">
 </details>
 <img width="889" alt="No errors" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/174478a9-9d01-4e3a-9a87-03ad93a14dea">
 
 
 <details><summary>CSS Stylesheets</summary>
-<img width="888" alt="w3validatorstylecss" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/3daba716-b875-4c65-89f7-3d982ff3a66d">
+<img width="888" alt="w3 validator style.css" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/3daba716-b875-4c65-89f7-3d982ff3a66d">
 
- <img width="889" alt="w3validatorgallerycss" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/e1f101fc-be85-4922-8492-aad307e694f6">
+<img width="878" alt="w3 validator gallery.css" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/830d9783-a5e5-4979-b43b-c70f16f2f49d">
 </details>
 <img width="889" alt="No errors" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/174478a9-9d01-4e3a-9a87-03ad93a14dea">
 
@@ -163,6 +163,8 @@ Additional testing has been carried out by friends and colleagues including on a
 | Nav links hover effect | Link changes colour to pink and underlines | Hover mouse over link | Colour changes and underlines text | __Pass__ |
 | The Home nav link | Link directs user to the home page | Clicked link | Home page reloads | __Pass__ |
 | The Gallery nav link | Link directs user to the gallery page | Clicked link | Gallery page loads | __Pass__ |
+| The link in the Gallery alert | Link directs user to contact page | Clicked link | Contact page loads | __Pass__ |
+| The cross in the Gallery alert | Close the alert | Clicked the cross | Alert closes | __Pass__ |
 | The carousel next arrow | Scrolls carousel to next item | Clicked arrow | Next item appears | __Pass__ |
 | The carousel previous arrow | Scrolls carousel to the previous item | Clicked arrow | Previous item appears | __Pass__ |
 | The "Get a Quote" buttons on carousel items | Directs user to the contact page | Clicked button | Contact page loads | __Pass__ |
