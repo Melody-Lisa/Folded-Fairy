@@ -260,10 +260,9 @@ h4 {
     height: auto;
     width: fit-content;
     margin: 0 auto;
-    bottom: 35px;
+    bottom: 15%;
     padding: 10px 30px;
     border-radius: 30px;
-    bottom: 10%;
 }
 
 .gallery-head {
