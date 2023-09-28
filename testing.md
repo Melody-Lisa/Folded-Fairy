@@ -129,11 +129,17 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 
 > * As a returning visitor, I want to be able to see new creations made by the business to see how often they are creating products.
 
-The gallery page is designed to showcase the best and most recent products created by the company.
+<details><summary>The gallery page is designed to showcase the best and most recent products created by the company.</summary>
+<img width="708" alt="gallery" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/248b7b02-b9df-429f-91ae-55c55e596d20">
+</details>
 
 > * As a returning visitor, I want to know how to contact the business for more information if I wanted a design of my own.
 
-Users are directed to the contact page from the gallery to encourage them to contact the business about any enquiries they may have.
+<details><summary>Users are directed to the contact page from the gallery to encourage them to contact the business about any enquiries they may have.</summary>
+<img width="918" alt="alert" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d6b72dc3-d014-4924-8535-f690d7c0d2ce">
+
+<img width="265" alt="gallery caption" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/4cc47db6-af53-4ef7-8664-2a2540fffdbb">
+</details>
 
 #### Frequent User Goals
 
