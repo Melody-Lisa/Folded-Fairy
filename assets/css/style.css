@@ -334,12 +334,12 @@ h4 {
 
 @media screen and (max-width: 576px) {
     .alert {
-        margin-top: 35px;
+        margin-top: 30px;
     }
 
     .gallery-caption {
         margin: 0 auto;
-        bottom: 10%;
+        bottom: 40px;
     }
 }
 
