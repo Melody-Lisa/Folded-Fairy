@@ -228,7 +228,6 @@ h4 {
     background-color: rgb(235, 92, 173, 0.7);
     border: none;
     position: absolute;
-    margin-top: 15px;
     width: 100%;
     z-index: 999;
 }
@@ -336,7 +335,7 @@ h4 {
 
 @media screen and (max-width: 576px) {
     .alert {
-        margin-top: 45px;
+        margin-top: 35px;
     }
 
     .gallery-caption {
