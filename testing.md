@@ -105,7 +105,7 @@ The home page of the site serves the purpose of introducing the business and pro
 
 > * As a first time visitor, I want to be able to easily navigate the site to access content without having to use the back button at any time.
 
-The site has a clear and easy to follow nav bar that stays at the top of each page and indicates which page you are currently on. There are also buttons on the gallery page that encourage the visitor to continue to the contact page.
+The site has a clear and easy to follow nav bar that stays at the top of each page and indicates which page you are currently on. There are also buttons and an alert on the gallery page that encourage the visitor to continue to the contact page.
 
 > * As a first time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
