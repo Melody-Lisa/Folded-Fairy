@@ -241,9 +241,8 @@ h4 {
     animation-name: fadeIn;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    height: 90%;
+    height: 95%;
     margin-top: 65px;
-    bottom: 20px;
 }
 
 .c-item {
