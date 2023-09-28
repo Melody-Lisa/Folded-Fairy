@@ -259,7 +259,7 @@ h4 {
     color: #eb5cad;
     height: auto;
     width: fit-content;
-    margin: 0 auto 45px;
+    margin: 45px auto;
     padding: 10px 30px;
     border-radius: 30px;
 }
