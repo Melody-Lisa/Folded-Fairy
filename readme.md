@@ -355,7 +355,7 @@ Please see [testing.md](testing.md) for all testing elements of this site.
 
 * [Bootstrap](https://getbootstrap.com/docs/5.3/components/alerts/): Insert the alert on the gallery page.
 
-* * [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/): Insert the carousel on the gallery page.
+* [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/): Insert the carousel on the gallery page.
 
 * [ByteGrad](https://www.youtube.com/watch?v=zVjAA6UxvtU) - Youtube: Insert the carousel on the gallery page.
 
