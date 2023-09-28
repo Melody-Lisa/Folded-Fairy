@@ -260,7 +260,7 @@ h4 {
     height: auto;
     width: fit-content;
     margin: 0 auto;
-    bottom: 10%;
+    margin-bottom: 10%;
     padding: 10px 30px;
     border-radius: 30px;
 }
