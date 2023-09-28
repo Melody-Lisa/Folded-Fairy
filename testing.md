@@ -89,6 +89,8 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 | Desktop | 80 | 96 | 100 | 100 |
 | Mobile | 73 | 96 | 100 | 100 |
 
+The hero animation on each page seems to impact the performance scores in lighthouse along with the images on the gallery page. Images have been resized but there may be room for improvement. Future versions of the site may require revisiting some of these issues to improve performance scores.
+
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
 ------
