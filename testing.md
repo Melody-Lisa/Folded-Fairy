@@ -101,17 +101,29 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 
 > * As a first time visitor, I want to be able to easily understand the purpose of the website and to learn more about the business.
 
-The home page of the site serves the purpose of introducing the business and product to first time visitors.
+<details><summary>The home page of the site serves the purpose of introducing the business and product to first time visitors.</summary>
+<img width="698" alt="about section" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/4180c292-9e91-4387-ab48-5ea0ef7b9773">
+</details>
 
 > * As a first time visitor, I want to be able to easily navigate the site to access content without having to use the back button at any time.
 
-The site has a clear and easy to follow nav bar that stays at the top of each page and indicates which page you are currently on. There are also buttons and an alert on the gallery page that encourage the visitor to continue to the contact page.
+<details><summary>The site has a clear and easy to follow nav bar that stays at the top of each page and indicates which page you are currently on. There are also buttons and an alert on the gallery page that encourage the visitor to continue to the contact page.</summary>
+<img width="905" alt="desktop navbar" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/627c4f7c-73b4-43fa-8da7-dbe26e525d93">
+
+<img width="918" alt="alert" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/d6b72dc3-d014-4924-8535-f690d7c0d2ce">
+
+<img width="265" alt="gallery caption" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/4cc47db6-af53-4ef7-8664-2a2540fffdbb">
+</details>
 
 > * As a first time visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-The home page features a reviews section where the business owner can showcase what has been said about their products in the past.
+<details><summary>The home page features a reviews section where the business owner can showcase what has been said about their products in the past.</summary>
+<img width="695" alt="responsive review section" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/56c5ce6a-7535-44df-a4fe-5a0be8e45aea">
+</details>
 
-There are links to various social media platforms in the footer,  which stays at the bottom of the screen on each page.
+<details><summary>There are links to various social media platforms in the footer,  which stays at the bottom of the screen on each page.</summary>
+<img width="908" alt="desktop footer" src="https://github.com/Melody-Lisa/Folded-Fairy/assets/137832068/2fcbc838-b257-48d1-b943-b695adece12c">
+</details>
 
 #### Returning Visitor Goals
 
